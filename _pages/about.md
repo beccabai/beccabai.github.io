@@ -38,8 +38,8 @@ GPA: 88.62/100
 
 Intern & Work Experience
 ======
-* **Peking University, Beijing, China (Jul.2021-Present)**   
-*July 2021 to Present* 
+* **Peking University, Beijing, China**   
+*July 2021 to Present*    
 Position: Research Intern in [Prof. Bin Cui](https://cuibinpku.github.io/)'s Group
 * Project:   
     * Transfer Learning for Hyperparameter Optimization --> **KDD2022** & **Preprint review**   
