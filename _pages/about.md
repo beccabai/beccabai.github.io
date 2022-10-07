@@ -21,4 +21,4 @@ Publications
 Preprints
 ======
 * **Transfer Learning for Bayesian Optimization: a Survey**   
-    (* **co-first author**)
+    **co-first author**
