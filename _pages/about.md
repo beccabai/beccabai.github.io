@@ -29,7 +29,7 @@ Preprints
 Education
 ======
 * **Beijing Institute of Technology**    
-**Major: Statistics, School of Mathematics and Statistic**     
+**Major: Statistics, School of Mathematics and Statistics**     
 *September 2019 to June 2023(Expected)*   
 GPA: 88.62/100    
 **Minor: Artificial Intelligence, School of Computer Science**  
