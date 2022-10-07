@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a fourth year undergraduate at [Beijing Institute of Technology (BIT)](https://www.bit.edu.cn/), majoring in Statistics and minoring in Artificial Intelligence. I'm currently working as a research assistant at [Peking University DAIR lab](https://github.com/PKU-DAIR), supervised by [Prof. Bin Cui](https://cuibinpku.github.io/). I expect to graduate in 2023 and I am aiming PhD position for 2023 Fall.
+I'm a fourth year undergraduate at [Beijing Institute of Technology (BIT)](https://www.bit.edu.cn/), majoring in Statistics and minoring in Artificial Intelligence. I'm currently working as a research assistant at [Peking University DAIR lab](https://github.com/PKU-DAIR), supervised by [Prof. Bin Cui](https://cuibinpku.github.io/). I expect to graduate in 2023 and I am aiming for a PhD position for 2023 Fall.
 
 My research interests mainly focus on **Machine Learning**, especially **Automatic Machine Learning (AutoML)**. Previously I worked on **Transfer Learning** for **Hyperparameter Optimization (HPO)**, and now I am focusing on some online scenarios.
 
