@@ -12,16 +12,19 @@ I'm a fourth year undergraduate at [Beijing Institute of Technology (BIT)](https
 
 My research interests mainly focus on **Machine Learning**, especially **Automatic Machine Learning (AutoML)**. Previously I worked on **Transfer Learning** for **Hyperparameter Optimization (HPO)**, and now I am focusing on some online scenarios.
 
+
 Publications
 ======
 * **Transfer Learning based Search Space Design for Hyperparameter Tuning**  
     Yang Li, Yu Shen, Huaijun Jiang, **Tianyi Bai**, Wentao Zhang, Ce Zhang, Bin Cui  
     *Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining* (**KDD 2022**).[LINK](https://arxiv.org/abs/2206.02511)    
 
+
 Preprints
 ======
 * **Transfer Learning for Bayesian Optimization: a Survey**   
     **co-first author**      
+
 
 Education
 ======
@@ -33,6 +36,7 @@ GPA: 88.62/100
 *February 2020 to June 2023(Expected)*   
 Main courses: Data Structure and Algorithm Design, Operating System, Database Principle, Computer Organization and Structure, Artificial Intelligence, Machine Learning, Natural Language Processing, Digital Image Processing, Deep Learning  
 
+
 Intern & Work Experience
 ======
 **Peking University, Beijing, China (Jul.2021-Present)**    
@@ -41,3 +45,13 @@ Intern & Work Experience
 * Project:   
     * Transfer Learning for Hyperparameter Optimization --> **KDD2022** & **Preprint review**   
     * Online AutoML --> **Ongoing Project**   
+
+Awards and Honors
+======
+* 2021 Gold Award, International Genetically Engineered Machine competition (iGEM) 
+* 2021 Meritorious Winner, Mathematical Contest in Modeling (MCM), COMAP
+* 2020 Outstanding Student Award (2020), Beijing Institute of Technology
+* 2018 First Prize, Chemistry Olympiad (Provincial level)
+
+Friends
+======
