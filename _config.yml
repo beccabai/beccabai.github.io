@@ -10,7 +10,7 @@ locale                   : "Beijing, China"
 title                    : "Tianyi Bai"
 title_separator          : "-"
 name                     : &name "Tianyi Bai"
-description              : &description "undergraduate"
+description              : &description "personal description"
 url                      : https://beccabai.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "beccabai/beccabai.github.io"
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Tianyi Bai (白天祎)"
-  avatar           : "profile.png"
+  avatar           : "myphoto.jpeg"
   bio              : "Undergraduate Student"
   location         : "Beijing, China"
   employer         :
