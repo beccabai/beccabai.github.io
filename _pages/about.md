@@ -50,4 +50,4 @@ Awards and Honors
 
 Friends
 -----
-[Fanpeng Meng(HUST)](https://mfp0610.github.io/),[Wenjie Qu(HUST)](https://quwenjie.github.io/)
+[Fanpeng Meng](https://mfp0610.github.io/) | [Wenjie Qu](https://quwenjie.github.io/)
