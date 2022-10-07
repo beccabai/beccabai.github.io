@@ -38,7 +38,8 @@ Intern & Work Experience
 *July 2021 to Present*    
 Position: Research Intern in [Prof. Bin Cui](https://cuibinpku.github.io/)'s Group   
 Projects:   
-  * Transfer Learning for Hyperparameter Optimization --> **KDD2022** & **Preprint review**   
+  * Transfer Learning based Hyperparameter Optimization --> **KDD2022**
+  * Transfer Learning for Bayesian Optimization --> **Preprint review**   
   * Online AutoML --> **Ongoing Project**   
 
 Awards and Honors
