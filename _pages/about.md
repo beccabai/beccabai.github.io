@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a fourth year undergraduate at [Beijing Institute of Technology (BIT)](https://www.bit.edu.cn/), majoring in Statistics and minoring in Artificial Intelligence. I'm currently working as a research assistant at Peking University DAIR lab, supervised by [Prof. Bin Cui](https://cuibinpku.github.io/).
+I'm a fourth year undergraduate at [Beijing Institute of Technology (BIT)](https://www.bit.edu.cn/), majoring in Statistics and minoring in Artificial Intelligence. I'm currently working as a research assistant at [Peking University DAIR lab](https://github.com/PKU-DAIR), supervised by [Prof. Bin Cui](https://cuibinpku.github.io/).
 
 My research interests mainly focus on **Automatic Machine Learning (AutoML)**, especially **Hyperparameter Optimization (HPO)**. Previously I worked on **Transfer Learning** for HPO, and now I am focusing on some online scenarios.
 
