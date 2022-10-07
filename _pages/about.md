@@ -31,7 +31,7 @@ Education
 GPA: 88.62/100    
 **Minor: Artificial Intelligence, School of Computer Science**  
 *February 2020 to June 2023(Expected)*   
-Main courses: Data Structure and Algorithm Design, Operating System, Database Principle, Computer Organization and Structure,Artificial Intelligence, Machine Learning, Natural Language Processing, Digital Image Processing, Deep Learning  
+Main courses: Data Structure and Algorithm Design, Operating System, Database Principle, Computer Organization and Structure, Artificial Intelligence, Machine Learning, Natural Language Processing, Digital Image Processing, Deep Learning  
 
 Intern & Work Experience
 ======
