@@ -39,6 +39,6 @@ Intern & Work Experience
 **Peking University, Beijing, China (Jul.2021-Present)**    
 * Position: Research Intern in [Prof. Bin Cui](https://cuibinpku.github.io/)'s Group
 * Supervisor: [Prof. Bin Cui](https://cuibinpku.github.io/)   
-*Project: *   
+Project:   
 * Transfer Learning for Hyperparameter Optimization --> **KDD2022** & **Preprint review**   
 * Online AutoML --> **Ongoing Project**   
