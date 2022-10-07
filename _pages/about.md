@@ -16,7 +16,7 @@ Publications
 ======
 * **Transfer Learning based Search Space Design for Hyperparameter Tuning**  
     Yang Li, Yu Shen, Huaijun Jiang, **Tianyi Bai**, Wentao Zhang, Ce Zhang, Bin Cui  
-    *Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining* (**KDD 2022**).    
+    *Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining* (**KDD 2022**).[LINK](https://arxiv.org/abs/2206.02511)    
 
 Preprints
 ======
