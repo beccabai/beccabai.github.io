@@ -14,20 +14,20 @@ My research interests mainly focus on **Machine Learning**, especially **Automat
 
 
 Publications
-======
+-----
 * **Transfer Learning based Search Space Design for Hyperparameter Tuning**  
     Yang Li, Yu Shen, Huaijun Jiang, **Tianyi Bai**, Wentao Zhang, Ce Zhang, Bin Cui  
     *Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining* (**KDD 2022**).[LINK](https://arxiv.org/abs/2206.02511)    
 
 
 Preprints
-======
+-----
 * **Transfer Learning for Bayesian Optimization: a Survey**   
     **co-first author**      
 
 
 Education
-======
+-----
 * **Beijing Institute of Technology**    
 **Major: Statistics, School of Mathematics and Statistics**     
 *September 2019 to June 2023(Expected)*   
@@ -37,7 +37,7 @@ GPA: 88.62/100
 
 
 Intern & Work Experience
-======
+-----
 * **Peking University, Beijing, China**   
 *July 2021 to Present*    
 Position: Research Intern in [Prof. Bin Cui](https://cuibinpku.github.io/)'s Group   
@@ -47,7 +47,7 @@ Project:
 
 
 Awards and Honors
-======
+-----
 * 2021 Gold Award, International Genetically Engineered Machine competition (iGEM) 
 * 2021 Meritorious Winner, Mathematical Contest in Modeling (MCM), COMAP
 * 2020 Outstanding Student Award (2020), Beijing Institute of Technology
@@ -55,5 +55,5 @@ Awards and Honors
 
 
 Friends
-======
+-----
 [Fanpeng Meng(HUST)](https://mfp0610.github.io/)
