@@ -51,5 +51,5 @@ Awards and Honors
 
 Friends
 -----
-[Fanpeng Meng](https://mfp0610.github.io/)  |  [Wenjie Qu](https://quwenjie.github.io/)  |  [Yanjie Ze](https://yanjieze.com/)  |  [Yu Lei](https://leiyu0210.github.io/)   
+[Fanpeng Meng](https://mfp0610.github.io/)  |  [Shiyi Du](https://zoedsy.github.io/)  |  [Wenjie Qu](https://quwenjie.github.io/)  |  [Yanjie Ze](https://yanjieze.com/)  |  [Yu Lei](https://leiyu0210.github.io/)   
 <font color=gray>(Ordered by Alphabets)</font>
