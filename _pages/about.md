@@ -21,7 +21,7 @@ Publications
 Preprints
 -----
 * **Transfer Learning for Bayesian Optimization: a Survey**   
-    **co-first author**      
+    **first author**  will be appear on arXiv soon！   
 
 Education
 -----
