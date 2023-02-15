@@ -21,7 +21,7 @@ Publications
 Preprints
 -----
 * **Transfer Learning for Bayesian Optimization: a Survey**   
-    **first author**  [LINK](https://arxiv.org/abs/2302.05927)  
+    **Tianyi Bai**, Yang Li, Yu Shen, Xinyi Zhang, Wentao Zhang, Bin Cui  [LINK](https://arxiv.org/abs/2302.05927)  
 
 Education
 -----
