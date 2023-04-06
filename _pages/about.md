@@ -35,12 +35,18 @@ GPA: 88.62/100
 Intern & Work Experience
 -----
 * **Peking University, Beijing, China**   
+* March 2023 to Present*
+Position: Research Intern supervised by [Dr. Wentao Zhang](https://zwt233.github.io/)
+Project:
+  * AutoML&Graph
+
+* **Peking University, Beijing, China**   
 *July 2021 to Present*    
 Position: Research Intern in [Prof. Bin Cui](https://cuibinpku.github.io/)'s Group   
 Projects:   
   * Transfer Learning based Hyperparameter Optimization --> **KDD2022**
   * Transfer Learning for Bayesian Optimization --> **Preprint review**   
-  * Online AutoML --> **Ongoing Project**   
+
 
 Awards and Honors
 -----
