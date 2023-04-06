@@ -35,9 +35,9 @@ GPA: 88.62/100
 Intern & Work Experience
 -----
 * **Peking University, Beijing, China**   
-* March 2023 to Present*
-Position: Research Intern supervised by [Dr. Wentao Zhang](https://zwt233.github.io/)  
-Project:
+* March 2023 to Present*    
+Position: Research Intern supervised by [Dr. Wentao Zhang](https://zwt233.github.io/)    
+Project:    
   * AutoML&Graph
 
 * **Peking University, Beijing, China**   
