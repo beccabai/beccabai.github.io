@@ -10,7 +10,7 @@ redirect_from:
 
 I'm an incoming PhD student at CSE, HKUST, supervised by [Prof. Binhang Yuan](https://binhangyuan.github.io/site/). I'm now a senior undergraduate student at [Beijing Institute of Technology (BIT)](https://www.bit.edu.cn/), majoring in Statistics and minoring in Artificial Intelligence. Previously I worked as a research assistant at [Peking University DAIR lab](https://github.com/PKU-DAIR), supervised by [Prof. Bin Cui](https://cuibinpku.github.io/).
 
-My research interests mainly focus on Foundation Models (FM) and its application. Previously, I focused on Machine Learning, especially Automatic Machine Learning (AutoML). I worked on Transfer Learning for Hyperparameter Optimization (HPO) and Bayesian Optimization.
+My research interests mainly focus on Foundation Models (FM) and their applications. Previously, I focused on Machine Learning, especially Automatic Machine Learning (AutoML). I worked on Transfer Learning for Hyperparameter Optimization (HPO) and Bayesian Optimization.
 
 Publications
 -----
