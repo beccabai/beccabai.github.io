@@ -25,13 +25,13 @@ Preprints
 
 Education
 -----
-* **Hong Kong University of Science and Technology**
+* **Hong Kong University of Science and Technology**  
 **PhD in Computer Science and Engineering**
 *September 2023-present*
   
 * **Beijing Institute of Technology**    
 **BEng in Statistics, School of Mathematics and Statistics**     
-*September 2019 to June 2023*
+*September 2019 to June 2023*  
 **BEng in Artificial Intelligence, School of Computer Science**  
 *February 2020 to June 2023*   
 
