@@ -26,7 +26,7 @@ Preprints
 Education
 -----
 * **Hong Kong University of Science and Technology**  
-**PhD in Computer Science and Engineering**
+**PhD in Computer Science and Engineering**  
 *September 2023-present*
   
 * **Beijing Institute of Technology**    
