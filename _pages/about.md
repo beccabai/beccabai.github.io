@@ -32,7 +32,6 @@ Education
 * **Beijing Institute of Technology**    
 **BEng in Statistics, School of Mathematics and Statistics**     
 *September 2019 to June 2023*
-
 **BEng in Artificial Intelligence, School of Computer Science**  
 *February 2020 to June 2023*   
 
