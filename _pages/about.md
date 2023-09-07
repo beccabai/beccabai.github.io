@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I'm an incoming Ph.D. student at CSE, HKUST, supervised by [Prof. Binhang Yuan](https://binhangyuan.github.io/site/). I'm now a senior undergraduate student at Beijing Institute of Technology (BIT), majoring in Statistics and minoring in Artificial Intelligence. Previously I worked as a research assistant at [Peking University DAIR lab](https://github.com/PKU-DAIR), supervised by [Prof. Bin Cui](https://cuibinpku.github.io/).
+I'm a Ph.D. student at CSE, HKUST, supervised by [Prof. Binhang Yuan](https://binhangyuan.github.io/site/). Before that, I got my B.Eng. degree in Statistics and Artificial Intelligence from Beijing Institute of Technology (BIT). Previously I worked as a research assistant at [Peking University DAIR lab](https://github.com/PKU-DAIR), supervised by [Prof. Bin Cui](https://cuibinpku.github.io/).
 
-My research interests mainly focus on Foundation Models (FM) and their applications. Previously, I focused on Machine Learning, especially Automatic Machine Learning (AutoML). I worked on Transfer Learning for Hyperparameter Optimization (HPO) and Bayesian Optimization.
+My research interests mainly focus on Database and Large Language Models. Previously, I focused on Machine Learning, especially Automatic Machine Learning (AutoML).
 
 Publications
 -----
@@ -25,12 +25,16 @@ Preprints
 
 Education
 -----
+* **Hong Kong University of Science and Technology**
+**PhD in Computer Science and Engineering**
+*September 2023-present*
+  
 * **Beijing Institute of Technology**    
-**Major: Statistics, School of Mathematics and Statistics**     
-*September 2019 to June 2023(Expected)*   
-GPA: 88.62/100    
-**Minor: Artificial Intelligence, School of Computer Science**  
-*February 2020 to June 2023(Expected)*   
+**BEng in Statistics, School of Mathematics and Statistics**     
+*September 2019 to June 2023*
+
+**BEng in Artificial Intelligence, School of Computer Science**  
+*February 2020 to June 2023*   
 
 Intern & Work Experience
 -----
@@ -41,7 +45,7 @@ Project:
   * AutoML&Graph
  -->
 * **Peking University, Beijing, China**   
-*July 2021 to Present*    
+*July 2021 to July 2023*    
 Position: Research Intern in [Prof. Bin Cui](https://cuibinpku.github.io/)'s Group   
 Projects:   
   * Transfer Learning based Hyperparameter Optimization --> **KDD2022**
