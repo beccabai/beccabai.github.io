@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "Beijing, China"
+locale                   : "HKUST, Clear Water Bay, Kowloon, Hong Kong"
 title                    : "Tianyi Bai"
 title_separator          : "-"
 name                     : &name "Tianyi Bai"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Tianyi Bai (白天祎)"
   avatar           : "2寸.jpeg"
-  bio              : "Undergraduate Student"
-  location         : "Beijing, China"
+  bio              : "Ph.D. Student"
+  location         : "HKUST, Clear Water Bay, Kowloon, Hong Kong"
   employer         :
   pubmed           :  # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=s3cJW70AAAAJ&hl=zh-CN&oi=ao"
-  email            : "tianyibai@bit.edu.cn"
+  email            : "tbaiag@connect.ust.hk"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
