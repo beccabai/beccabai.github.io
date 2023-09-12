@@ -14,13 +14,13 @@ My research interests mainly focus on Database and Large Language Models. Previo
 
 Publications
 -----
-* **Transfer Learning based Search Space Design for Hyperparameter Tuning**  
+* **[Transfer Learning based Search Space Design for Hyperparameter Tuning](https://dl.acm.org/doi/10.1145/3534678.3539369)**  
     Yang Li, Yu Shen, Huaijun Jiang, **Tianyi Bai**, Wentao Zhang, Ce Zhang, Bin Cui  
-    *Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining* (**KDD 2022**).[LINK](https://dl.acm.org/doi/10.1145/3534678.3539369)   
+    *Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining* (**KDD 2022**).
 
 Preprints
 -----
-* **Transfer Learning for Bayesian Optimization: A Survey**   [LINK](https://arxiv.org/abs/2302.05927)  
+* **[Transfer Learning for Bayesian Optimization: A Survey](https://arxiv.org/abs/2302.05927)**    
     **Tianyi Bai**, Yang Li, Yu Shen, Xinyi Zhang, Wentao Zhang, Bin Cui 
 
 Education
