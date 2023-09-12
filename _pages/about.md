@@ -50,13 +50,14 @@ Projects:
   * Transfer Learning based Hyperparameter Optimization --> **KDD2022**
   * Transfer Learning for Bayesian Optimization --> **Preprint review**   
 
-
+<!--
 Awards and Honors
 -----
 * 2021 Gold Award, International Genetically Engineered Machine competition (iGEM) 
 * 2021 Meritorious Winner, Mathematical Contest in Modeling (MCM), COMAP
 * 2020 Outstanding Student Award (2020), Beijing Institute of Technology
 * 2018 First Prize, Chemistry Olympiad (Provincial level)
+ -->
 
 <!--
 Friends
