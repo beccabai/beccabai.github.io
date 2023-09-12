@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Ph.D. student at CSE, HKUST, supervised by [Prof. Binhang Yuan](https://binhangyuan.github.io/site/). Before that, I got my B.Eng. degree in Statistics and Artificial Intelligence from Beijing Institute of Technology (BIT). Previously I worked as a research assistant at [Peking University DAIR lab](https://github.com/PKU-DAIR), supervised by [Prof. Bin Cui](https://cuibinpku.github.io/).
+I'm a Ph.D. student at CSE, HKUST, supervised by [Prof. Binhang Yuan](https://binhangyuan.github.io/site/). Before that, I got my B.S. degree in Statistics and B.Eng. degree in Artificial Intelligence from Beijing Institute of Technology (BIT). Previously I worked as a research assistant at [Peking University DAIR lab](https://github.com/PKU-DAIR), supervised by [Prof. Bin Cui](https://cuibinpku.github.io/).
 
 My research interests mainly focus on Database and Large Language Models. Previously, I focused on Machine Learning, especially Automatic Machine Learning (AutoML).
 
@@ -30,7 +30,7 @@ Education
 *September 2023-present*
   
 * **Beijing Institute of Technology**    
-**BEng in Statistics, School of Mathematics and Statistics**     
+**BS in Statistics, School of Mathematics and Statistics**     
 *September 2019 to June 2023*  
 **BEng in Artificial Intelligence, School of Computer Science**  
 *February 2020 to June 2023*   
