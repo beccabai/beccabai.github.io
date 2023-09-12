@@ -58,7 +58,9 @@ Awards and Honors
 * 2020 Outstanding Student Award (2020), Beijing Institute of Technology
 * 2018 First Prize, Chemistry Olympiad (Provincial level)
 
+<!--
 Friends
 -----
 [Fanpeng Meng](https://mfp0610.github.io/)  |  [Shiyi Du](https://zoedsy.github.io/)  |  [Wenjie Qu](https://quwenjie.github.io/)  |  [Yanjie Ze](https://yanjieze.com/)  |  [Yu Lei](https://leiyu0210.github.io/)  |  [Zhihao Cao](https://zhihaocao.com/)
 <font color=gray>(Ordered by Alphabets)</font>
+ -->
