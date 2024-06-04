@@ -47,7 +47,7 @@ Project:
   * Data-centric Generative AI
  
 * **Peking University, Beijing, China**    
-*Februrary 2024 to Present*    
+*January 2024 to Present*    
 Position: Research Intern supervised by [Prof. Wentao Zhang](https://zwt233.github.io/)      
 Project:    
   * Data-centric Generative AI
