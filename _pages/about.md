@@ -20,6 +20,9 @@ Publications
 
 Preprints
 -----
+* **[A Survey of Multimodal Large Language Model from A Data-centric Perspective](https://arxiv.org/abs/2405.16640)**    
+    **Tianyi Bai**, Hao Liang, Binwang Wan, Ling Yang, Bozhou Li, Yifan Wang, Bin Cui, Conghui He, Binhang Yuan, Wentao Zhang
+  
 * **[Transfer Learning for Bayesian Optimization: A Survey](https://arxiv.org/abs/2302.05927)**    
     **Tianyi Bai**, Yang Li, Yu Shen, Xinyi Zhang, Wentao Zhang, Bin Cui 
 
@@ -37,12 +40,18 @@ Education
 
 Intern & Work Experience
 -----
-<!-- * **Peking University, Beijing, China**   
-*March 2023 to Present*    
-Position: Research Intern supervised by [Dr. Wentao Zhang](https://zwt233.github.io/)    
+* **Shanghai Artificial Intelligence Laboratory, Shanghai, China**
+* Februrary 2024 to Present*    
+Position: Research Intern supervised by [Dr. Conghui He](https://conghui.github.io/)
 Project:    
-  * AutoML&Graph
- -->
+  * Data-centric Generative AI
+ 
+* **Peking University, Beijing, China**
+* Februrary 2024 to Present*    
+Position: Research Intern supervised by [Prof. Wentao Zhang](https://zwt233.github.io/)
+Project:    
+  * Data-centric Generative AI
+  
 * **Peking University, Beijing, China**   
 *July 2021 to July 2023*    
 Position: Research Intern in [Prof. Bin Cui](https://cuibinpku.github.io/)'s Group   
