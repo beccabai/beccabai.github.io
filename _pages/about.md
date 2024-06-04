@@ -41,13 +41,13 @@ Education
 Intern & Work Experience
 -----
 * **Shanghai Artificial Intelligence Laboratory, Shanghai, China**
-* Februrary 2024 to Present*    
+*Februrary 2024 to Present*    
 Position: Research Intern supervised by [Dr. Conghui He](https://conghui.github.io/)
 Project:    
   * Data-centric Generative AI
  
 * **Peking University, Beijing, China**
-* Februrary 2024 to Present*    
+*Februrary 2024 to Present*    
 Position: Research Intern supervised by [Prof. Wentao Zhang](https://zwt233.github.io/)
 Project:    
   * Data-centric Generative AI
