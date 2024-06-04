@@ -50,7 +50,7 @@ Project:
 *January 2024 to Present*    
 Position: Research Intern supervised by [Prof. Wentao Zhang](https://zwt233.github.io/)      
 Project:    
-  * Data-centric Generative AI
+  * Data-centric Generative AI --> A Survey of Multimodal Large Language Model from A Data-centric Perspective
   
 * **Peking University, Beijing, China**   
 *July 2021 to July 2023*    
