@@ -14,8 +14,8 @@ My research interests mainly focus on Data Efficient Large Language Models and M
 <!--
 Publications
 -----
-* **[Transfer Learning based Search Space Design for Hyperparameter Tuning](https://dl.acm.org/doi/10.1145/3534678.3539369)**  
-    Yang Li, Yu Shen, Huaijun Jiang, **Tianyi Bai**, Wentao Zhang, Ce Zhang, Bin Cui  
+* **[Transfer Learning based Search Space Design for Hyperparameter Tuning](https://dl.acm.org/doi/10.1145/3534678.3539369)**   
+    Yang Li, Yu Shen, Huaijun Jiang, **Tianyi Bai**, Wentao Zhang, Ce Zhang, Bin Cui    
     *Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining* (**KDD 2022**).
 
 Preprints
@@ -29,8 +29,8 @@ Preprints
 
 Selected Work
 -----
-* **[Multi-Agent Collaborative Data Selection for Efficient LLM Pretraining](https://arxiv.org/pdf/2410.08102)**
-    **Tianyi Bai**, Ling Yang, Zhen Hao Wong, Jiahui Peng, Xinlin Zhuang, Chi Zhang, Lijun Wu, Jiantao Qiu, Wentao Zhang, Binhang Yuan, Conghui He
+* **[Multi-Agent Collaborative Data Selection for Efficient LLM Pretraining](https://arxiv.org/pdf/2410.08102)**   
+    **Tianyi Bai**, Ling Yang, Zhen Hao Wong, Jiahui Peng, Xinlin Zhuang, Chi Zhang, Lijun Wu, Jiantao Qiu, Wentao Zhang, Binhang Yuan, Conghui He   
     *In submission*
 
 * **[A Survey of Multimodal Large Language Model from A Data-centric Perspective](https://arxiv.org/abs/2405.16640)**    
