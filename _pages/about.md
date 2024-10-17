@@ -54,7 +54,7 @@ Intern & Work Experience
 -----
 * **Shanghai Artificial Intelligence Laboratory, Shanghai, China**   
 *May 2024 to Present*    
-Position: Research Intern supervised by [Dr. Conghui He](https://conghui.github.io/), [Prof. Weijia Li](https://liweijia.github.io/) and [Dr. Jiantao Qiu](https://scholar.google.com/citations?user=Vm8bStkAAAAJ&hl=en)
+Position: Research Intern supervised   
 Project:    
   * Data-efficient LLM pretraining (supervised by [Dr. Conghui He](https://conghui.github.io/) and [Dr. Jiantao Qiu](https://scholar.google.com/citations?user=Vm8bStkAAAAJ&hl=en)) --> [Multi-Agent Collaborative Data Selection for Efficient LLM Pretraining](https://arxiv.org/pdf/2410.08102)
   * Synthetic Data Detection (supervised by [Dr. Conghui He](https://conghui.github.io/) and [Prof. Weijia Li](https://liweijia.github.io/)) --> [LOKI: A Comprehensive Synthetic Data Detection Benchmark using Large Multimodal Models](https://arxiv.org/pdf/2410.09732)  
