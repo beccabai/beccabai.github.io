@@ -34,7 +34,7 @@ Selected Work
     *In submission*
 
 * **[A Survey of Multimodal Large Language Model from A Data-centric Perspective](https://arxiv.org/abs/2405.16640)**    
-    **Tianyi Bai**, Hao Liang, Binwang Wan, Ling Yang, Bozhou Li, Yifan Wang, Bin Cui, Conghui He, Binhang Yuan, Wentao Zhang 
+    **Tianyi Bai**, Hao Liang, Binwang Wan, Ling Yang, Bozhou Li, Yifan Wang, Bin Cui, Conghui He, Binhang Yuan, Wentao Zhang   
     *ACM Computing Survey in submission*
 
 
@@ -54,16 +54,16 @@ Intern & Work Experience
 -----
 * **Shanghai Artificial Intelligence Laboratory, Shanghai, China**   
 *May 2024 to Present*    
-Position: Research Intern supervised   
+Position: Research Intern  
 Project:    
-  * Data-efficient LLM pretraining (supervised by [Dr. Conghui He](https://conghui.github.io/) and [Dr. Jiantao Qiu](https://scholar.google.com/citations?user=Vm8bStkAAAAJ&hl=en)) --> [Multi-Agent Collaborative Data Selection for Efficient LLM Pretraining](https://arxiv.org/pdf/2410.08102)
+  * Data-efficient LLM pretraining (supervised by [Dr. Conghui He](https://conghui.github.io/) and [Dr. Jiantao Qiu](https://scholar.google.com/citations?user=Vm8bStkAAAAJ&hl=en)) --> [Multi-Agent Collaborative Data Selection for Efficient LLM Pretraining](https://arxiv.org/pdf/2410.08102)  
   * Synthetic Data Detection (supervised by [Dr. Conghui He](https://conghui.github.io/) and [Prof. Weijia Li](https://liweijia.github.io/)) --> [LOKI: A Comprehensive Synthetic Data Detection Benchmark using Large Multimodal Models](https://arxiv.org/pdf/2410.09732)  
  
 * **Peking University, Beijing, China**    
 *January 2024 to Present*    
 Position: Research Intern supervised by [Prof. Wentao Zhang](https://zwt233.github.io/)      
 Project:    
-  * Data-centric Generative AI --> [A Survey of Multimodal Large Language Model from A Data-centric Perspective](https://arxiv.org/abs/2405.16640)
+  * Data-centric Generative AI --> [A Survey of Multimodal Large Language Model from A Data-centric Perspective](https://arxiv.org/abs/2405.16640)  
   
 * **Peking University, Beijing, China**   
 *July 2021 to July 2023*    
