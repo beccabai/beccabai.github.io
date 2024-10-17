@@ -13,22 +13,6 @@ I'm a Ph.D. student at CSE, HKUST, supervised by [Prof. Binhang Yuan](https://bi
 My research interests mainly focus on Data Efficient Large Language Models and Multimodal Large Language Models. Previously, I focused on Automatic Machine Learning (AutoML), especially Hyperparameter Optimization problem.
 
 
-<!--
-Publications
------
-* **[Transfer Learning based Search Space Design for Hyperparameter Tuning](https://dl.acm.org/doi/10.1145/3534678.3539369)**   
-    Yang Li, Yu Shen, Huaijun Jiang, **Tianyi Bai**, Wentao Zhang, Ce Zhang, Bin Cui    
-    *Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining* (**KDD 2022**).
-
-Preprints
------
-* **[A Survey of Multimodal Large Language Model from A Data-centric Perspective](https://arxiv.org/abs/2405.16640)**    
-    **Tianyi Bai**, Hao Liang, Binwang Wan, Ling Yang, Bozhou Li, Yifan Wang, Bin Cui, Conghui He, Binhang Yuan, Wentao Zhang
-  
-* **[Transfer Learning for Bayesian Optimization: A Survey](https://arxiv.org/abs/2302.05927)**    
-    **Tianyi Bai**, Yang Li, Yu Shen, Xinyi Zhang, Wentao Zhang, Bin Cui 
- -->
-
 Selected Work
 -----
 * **[Multi-Agent Collaborative Data Selection for Efficient LLM Pretraining](https://arxiv.org/pdf/2410.08102)**   
@@ -73,20 +57,3 @@ Position: Research Intern in [Prof. Bin Cui](https://cuibinpku.github.io/)'s Gro
 Projects:
   * Transfer Learning for Bayesian Optimization --> **First author preprint review**: [Transfer Learning for Bayesian Optimization: A Survey](https://arxiv.org/abs/2302.05927)  
   * Transfer Learning based Hyperparameter Optimization --> **KDD2022**: [Transfer Learning based Search Space Design for Hyperparameter Tuning](https://dl.acm.org/doi/10.1145/3534678.3539369)   
-
-
-<!--
-Awards and Honors
------
-* 2021 Gold Award, International Genetically Engineered Machine competition (iGEM) 
-* 2021 Meritorious Winner, Mathematical Contest in Modeling (MCM), COMAP
-* 2020 Outstanding Student Award (2020), Beijing Institute of Technology
-* 2018 First Prize, Chemistry Olympiad (Provincial level)
- -->
-
-<!--
-Friends
------
-[Fanpeng Meng](https://mfp0610.github.io/)  |  [Shiyi Du](https://zoedsy.github.io/)  |  [Wenjie Qu](https://quwenjie.github.io/)  |  [Yanjie Ze](https://yanjieze.com/)  |  [Yu Lei](https://leiyu0210.github.io/)  |  [Zhihao Cao](https://zhihaocao.com/)
-<font color=gray>(Ordered by Alphabets)</font>
- -->
