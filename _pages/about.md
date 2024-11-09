@@ -21,7 +21,9 @@ Selected Work
 
 * **[A Survey of Multimodal Large Language Model from A Data-centric Perspective](https://arxiv.org/abs/2405.16640)**    
     **Tianyi Bai**, Hao Liang, Binwang Wan, Ling Yang, Bozhou Li, Yifan Wang, Bin Cui, Conghui He, Binhang Yuan, Wentao Zhang   
-    *ACM Computing Survey in submission*
+    *ACM Computing Survey in submission* 
+
+Full list in [Google Scholar](https://scholar.google.com/citations?user=s3cJW70AAAAJ&hl=). 
 
 
 Education
