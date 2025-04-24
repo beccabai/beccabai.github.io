@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Ph.D. student at CSE, HKUST, supervised by [Prof. Binhang Yuan](https://binhangyuan.github.io/site/). I am also fortunate to collaborate with [Prof. Wentao Zhang](https://zwt233.github.io/) of [PKU-DCML Group](https://github.com/Open-DataFlow). Before that, I got my B.S. degree in Statistics and B.Eng. degree in Artificial Intelligence from Beijing Institute of Technology (BIT). Previously I worked as a research assistant at [Peking University DAIR lab](https://github.com/PKU-DAIR), supervised by [Prof. Bin Cui](https://cuibinpku.github.io/).
+I'm a Ph.D. student at CSE, HKUST, supervised by [Prof. Binhang Yuan](https://binhangyuan.github.io/site/). I am also fortunate to collaborate with [Prof. Wentao Zhang](https://zwt233.github.io/) of [PKU-DCML Group](https://github.com/Open-DataFlow). Previously I worked as a research assistant at [Peking University DAIR lab](https://github.com/PKU-DAIR), supervised by [Prof. Bin Cui](https://cuibinpku.github.io/).
 
 My research interests mainly focus on Efficient Training for Large Language Models and Multimodal Large Language Models.  
 During my undergraduate studies, I concentrated on Automatic Machine Learning (AutoML), with a particular emphasis on the Hyperparameter Optimization problem.
@@ -31,12 +31,7 @@ Education
 * **Hong Kong University of Science and Technology**  
 **PhD in Computer Science and Engineering**  
 *September 2023-present*
-  
-* **Beijing Institute of Technology**    
-**BS in Statistics, School of Mathematics and Statistics**     
-*September 2019 to June 2023*  
-**BEng in Artificial Intelligence, School of Computer Science**  
-*February 2020 to June 2023*   
+
 
 Intern & Work Experience
 -----
