@@ -43,7 +43,7 @@ Education
 Intern & Work Experience
 -----
 * **Shanghai Artificial Intelligence Laboratory, Shanghai, China**   
-*May 2024 to Present*    
+*May 2024 to May 2025*    
 Position: Research Intern  
 Project:    
   * Data-efficient LLM pretraining (supervised by [Dr. Conghui He](https://conghui.github.io/) and [Dr. Jiantao Qiu](https://scholar.google.com/citations?user=Vm8bStkAAAAJ&hl=en)) --> [Multi-Agent Collaborative Data Selection for Efficient LLM Pretraining](https://arxiv.org/pdf/2410.08102)  
