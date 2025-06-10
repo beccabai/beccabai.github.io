@@ -11,13 +11,20 @@ redirect_from:
 I'm a Ph.D. student at CSE, HKUST, supervised by [Prof. Binhang Yuan](https://binhangyuan.github.io/site/). I am also fortunate to collaborate with [Prof. Wentao Zhang](https://zwt233.github.io/) of [PKU-DCML Group](https://github.com/Open-DataFlow). Previously I worked as a research assistant at [Peking University DAIR lab](https://github.com/PKU-DAIR), supervised by [Prof. Bin Cui](https://cuibinpku.github.io/).
 
 My research interests mainly focus on Efficient Training for Large Language Models and Multimodal Large Language Models.  
-During my undergraduate studies, I concentrated on Automatic Machine Learning (AutoML), with a particular emphasis on the Hyperparameter Optimization problem.
 
 Selected Work
 -----
-* **[Multi-Agent Collaborative Data Selection for Efficient LLM Pretraining](https://arxiv.org/pdf/2410.08102)**   
-    **Tianyi Bai**, Ling Yang, Zhen Hao Wong, Jiahui Peng, Xinlin Zhuang, Chi Zhang, Lijun Wu, Jiantao Qiu, Wentao Zhang, Binhang Yuan, Conghui He   
-    *In submission*
+* **[Multi-Step Visual Reasoning with Visual Tokens Scaling and Verification](https://arxiv.org/abs/2506.07235)**
+   **Tianyi Bai**, Zengjie Hu, Fupeng Sun, Jiantao Qiu, Yizhen Jiang, Guangxin He, Bohan Zeng, Conghui He, Binhang Yuan, Wentao Zhang  
+  In submission*
+
+* **[Hallucination at a Glance: Controlled Visual Edits and Fine-Grained Multimodal Learning](https://arxiv.org/abs/2506.07227)**
+   **Tianyi Bai**, Yuxuan Fan, Jiantao Qiu, Fupeng Sun, Jiayi Song, Junlin Han, Zichen Liu, Conghui He, Wentao Zhang, Binhang Yuan
+  In submission*
+
+* **[Efficient Pretraining Data Selection for Language Models via Multi-Actor Collaboration](https://arxiv.org/pdf/2410.08102)**   
+    **Tianyi Bai**, Ling Yang, Zhen Hao Wong, Fupeng Sun, Jiahui Peng, Xinlin Zhuang, Chi Zhang, Lijun Wu, Jiantao Qiu, Wentao Zhang, Binhang Yuan, Conghui He   
+    *ACL 2025 Main*
 
 * **[A Survey of Multimodal Large Language Model from A Data-centric Perspective](https://arxiv.org/abs/2405.16640)**    
     **Tianyi Bai**, Hao Liang, Binwang Wan, Ling Yang, Bozhou Li, Yifan Wang, Bin Cui, Conghui He, Binhang Yuan, Wentao Zhang   
