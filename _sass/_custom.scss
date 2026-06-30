@@ -868,6 +868,21 @@ a:hover {
   line-height: 1.38;
 }
 
+.tb-author-note {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.22rem;
+  padding: 0.07rem 0.38rem;
+  border: 1px solid rgba(143, 102, 112, 0.30);
+  border-radius: 999px;
+  background: rgba(216, 167, 173, 0.24);
+  color: #8f6670;
+  font-size: 0.58rem;
+  font-weight: 780;
+  line-height: 1;
+  vertical-align: 0.12em;
+}
+
 .tb-timeline {
   margin: 1rem 0 2rem;
   padding-left: 0;

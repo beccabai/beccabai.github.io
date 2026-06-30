@@ -67,9 +67,9 @@ redirect_from:
   </article>
   <article>
     <img class="tb-paper-thumb" src="/images/work/geometry.png" alt="Multimodal geometry dataset synthesis pipeline">
-    <p class="tb-paper-venue"><span class="tb-paper-tag">Multimodal Geometry</span><span>Mentor</span><span>ICML 2026</span></p>
+    <p class="tb-paper-venue"><span class="tb-paper-tag">Multimodal Geometry</span><span>ICML 2026</span></p>
     <h3><a href="https://arxiv.org/pdf/2602.18745">Synthesizing Multimodal Geometry Datasets from Scratch and Enabling Visual Alignment via Plotting Code</a></h3>
-    <p>Haobo Lin, <strong>Tianyi Bai</strong>, Chen Chen, Jiajun Zhang, Bohan Zeng, Wentao Zhang, Binhang Yuan</p>
+    <p>Haobo Lin, <strong>Tianyi Bai <span class="tb-author-note">Mentor</span></strong>, Chen Chen, Jiajun Zhang, Bohan Zeng, Wentao Zhang, Binhang Yuan</p>
   </article>
   <article>
     <img class="tb-paper-thumb" src="/images/work/hallucination.png" alt="MicroEdit controlled visual edit pipeline">
