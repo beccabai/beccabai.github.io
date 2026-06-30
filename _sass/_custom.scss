@@ -589,9 +589,9 @@ a:hover {
 .tb-card {
   position: relative;
   display: flex;
-  min-height: 12.6rem;
+  min-height: 15.6rem;
   flex-direction: column;
-  padding: 1rem;
+  padding: 0.9rem;
   overflow: hidden;
   border: 1px solid rgba(234, 223, 221, 0.98);
   border-radius: 16px;
@@ -618,10 +618,22 @@ a:hover {
   content: "";
 }
 
+.tb-project-thumb {
+  width: 100%;
+  aspect-ratio: 16 / 7.2;
+  margin-bottom: 0.62rem;
+  padding: 0.25rem;
+  border: 1px solid rgba(216, 167, 173, 0.20);
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 12px 30px rgba(143, 102, 112, 0.08);
+  object-fit: contain;
+}
+
 .tb-project-card > span,
 .tb-card-label {
   width: max-content;
-  margin-bottom: 0.72rem;
+  margin-bottom: 0.56rem;
   padding: 0.18rem 0.54rem;
   border: 1px solid rgba(185, 137, 146, 0.32);
   border-radius: 999px;
@@ -634,7 +646,7 @@ a:hover {
 
 .tb-project-card h3,
 .tb-card h3 {
-  min-height: 2.5rem;
+  min-height: 2rem;
   margin: 0 0 0.45rem;
   color: var(--tb-ink);
   font-size: 1.08rem;
@@ -1190,6 +1202,10 @@ a:hover {
   .tb-project-card,
   .tb-card {
     min-height: auto;
+  }
+
+  .tb-project-thumb {
+    max-height: 14rem;
   }
 }
 

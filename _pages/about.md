@@ -40,16 +40,19 @@ redirect_from:
 
 <div class="tb-project-grid">
   <article class="tb-project-card">
+    <img class="tb-project-thumb" src="/images/work/cua.jpg" alt="Computer Use Agent benchmark results">
     <span>Computer Use Agent</span>
     <h3><a href="https://qwen.ai/blog?id=qwen3.6">Qwen3.5 / Qwen3.6</a></h3>
     <p>Leading Computer Use Agent capability work across RL infrastructure, annotation quality, data pipelines, training, evaluation, and bad case analysis.</p>
   </article>
   <article class="tb-project-card">
+    <img class="tb-project-thumb" src="/images/work/coder.jpg" alt="Qwen3-Coder-Next coding benchmark Pareto frontier">
     <span>Coding Agent</span>
     <h3><a href="https://github.com/QwenLM/Qwen3-Coder">Qwen3-Coder</a></h3>
     <p>Contributed to the Browser Use Agent module, including browser interaction data construction, capability improvement, training pipeline support, and evaluation.</p>
   </article>
   <article class="tb-project-card">
+    <img class="tb-project-thumb" src="/images/work/dataflow.jpg" alt="DataFlow generate and clean high-quality LLM data workflow">
     <span>Data Pipeline</span>
     <h3><a href="https://github.com/OpenDCAI/DataFlow">DataFlow</a></h3>
     <p>Responsible for the coding pipeline, including code data processing, quality filtering, pipeline orchestration, and preparation of training-ready code data.</p>
