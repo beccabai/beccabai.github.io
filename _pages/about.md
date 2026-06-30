@@ -70,22 +70,22 @@ redirect_from:
     <p>Haobo Lin, <strong>Tianyi Bai</strong>, Chen Chen, Jiajun Zhang, Bohan Zeng, Wentao Zhang, Binhang Yuan</p>
   </article>
   <article>
-    <p class="tb-paper-venue"><span class="tb-paper-tag">Multimodal Reasoning</span>NeurIPS 2025</p>
+    <p class="tb-paper-venue"><span class="tb-paper-tag">Multimodal Reasoning</span><span>NeurIPS 2025</span></p>
     <h3><a href="https://arxiv.org/abs/2506.07227">Hallucination at a Glance: Controlled Visual Edits and Fine-Grained Multimodal Learning</a></h3>
     <p><strong>Tianyi Bai</strong>, Yuxuan Fan, Jiantao Qiu, Fupeng Sun, Jiayi Song, Junlin Han, Zichen Liu, Conghui He, Wentao Zhang, Binhang Yuan</p>
   </article>
   <article>
-    <p class="tb-paper-venue"><span class="tb-paper-tag">Visual Reasoning</span>NeurIPS 2025</p>
+    <p class="tb-paper-venue"><span class="tb-paper-tag">Visual Reasoning</span><span>NeurIPS 2025</span></p>
     <h3><a href="https://arxiv.org/abs/2506.07235">Multi-Step Visual Reasoning with Visual Tokens Scaling and Verification</a></h3>
     <p><strong>Tianyi Bai</strong>, Zengjie Hu, Fupeng Sun, Jiantao Qiu, Yizhen Jiang, Guangxin He, Bohan Zeng, Conghui He, Binhang Yuan, Wentao Zhang</p>
   </article>
   <article>
-    <p class="tb-paper-venue"><span class="tb-paper-tag">Data Selection</span>ACL 2025 Main</p>
+    <p class="tb-paper-venue"><span class="tb-paper-tag">Data Selection</span><span>ACL 2025 Main</span></p>
     <h3><a href="https://arxiv.org/pdf/2410.08102">Efficient Pretraining Data Selection for Language Models via Multi-Actor Collaboration</a></h3>
     <p><strong>Tianyi Bai</strong>, Ling Yang, Zhen Hao Wong, Fupeng Sun, Jiahui Peng, Xinlin Zhuang, Chi Zhang, Lijun Wu, Jiantao Qiu, Wentao Zhang, Binhang Yuan, Conghui He</p>
   </article>
   <article>
-    <p class="tb-paper-venue"><span class="tb-paper-tag">Data-Centric AI</span>ACM Computing Surveys, major revision</p>
+    <p class="tb-paper-venue"><span class="tb-paper-tag">Data-Centric AI</span><span>ACM Computing Surveys, major revision</span></p>
     <h3><a href="https://arxiv.org/abs/2405.16640">A Survey of Multimodal Large Language Model from A Data-centric Perspective</a></h3>
     <p><strong>Tianyi Bai</strong>, Hao Liang, Binwang Wan, Ling Yang, Bozhou Li, Yifan Wang, Bin Cui, Conghui He, Binhang Yuan, Wentao Zhang</p>
   </article>
