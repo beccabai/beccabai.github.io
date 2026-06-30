@@ -1484,7 +1484,8 @@ a:hover {
 
   .tb-profile-chip img {
     width: min(100%, 13rem);
-    height: 12.4rem;
+    height: 14.3rem;
+    object-position: 50% 40%;
     border-width: 4px;
     border-radius: 15px;
   }
@@ -1557,7 +1558,7 @@ a:hover {
   }
 
   .tb-profile-chip img {
-    height: 11.2rem;
+    height: 13.4rem;
   }
 
   .tb-metrics span {
