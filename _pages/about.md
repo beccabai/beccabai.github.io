@@ -1,63 +1,101 @@
 ---
 permalink: /
-title: "About me"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
+title: "Tianyi Bai"
+excerpt: "Tianyi Bai"
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
 ---
 
-I'm a Ph.D. student at CSE, HKUST, supervised by [Prof. Binhang Yuan](https://binhangyuan.github.io/site/). I am also fortunate to collaborate with [Prof. Wentao Zhang](https://zwt233.github.io/) of [PKU-DCML Group](https://github.com/Open-DataFlow). Previously I worked as a research assistant at [Peking University DAIR lab](https://github.com/PKU-DAIR), supervised by [Prof. Bin Cui](https://cuibinpku.github.io/).
+<section class="tb-landing">
+  <div class="tb-landing__copy">
+    <p class="tb-kicker">HKUST CSE Ph.D. / Agentic AI / Data-Centric AI</p>
+    <h1>Tianyi Bai</h1>
+    <p class="tb-lead">I work on agentic AI, multimodal visual reasoning, and data-centric AI. I am a Ph.D. student at HKUST supervised by <a href="https://binhangyuan.github.io/site/">Prof. Binhang Yuan</a>. I am also fortunate to intern at Qwen, where I am supervised by <a href="https://huybery.github.io/">Binyuan Hui</a> and <a href="https://justinlin610.github.io/">Junyang Lin</a>. I also collaborate with <a href="https://zwt233.github.io/">Prof. Wentao Zhang</a> at PKU DCAI.</p>
+    <div class="tb-actions">
+      <a href="/cv/">CV</a>
+      <a href="https://scholar.google.com/citations?user=s3cJW70AAAAJ&hl=zh-CN&oi=ao">Google Scholar</a>
+      <a href="mailto:tbaiag@cse.ust.hk">Email</a>
+      <a href="https://github.com/beccabai">GitHub</a>
+    </div>
+  </div>
+  <div class="tb-landing__aside">
+    <div class="tb-profile-chip">
+      <img src="/images/photo3.jpg" alt="Tianyi Bai">
+    </div>
+    <div class="tb-metrics">
+      <div class="tb-interest-card">
+        <span>Research Interests</span>
+        <strong>Computer Use Agent</strong>
+        <strong>Coding Agent</strong>
+        <strong>Multimodal Reasoning</strong>
+        <strong>Data-Centric AI</strong>
+      </div>
+    </div>
+  </div>
+</section>
 
-My research interests mainly focus on Efficient Training for Large Language Models and Multimodal Large Language Models.  
+## Representative Work
 
-Selected Work
------
-* **[Multi-Step Visual Reasoning with Visual Tokens Scaling and Verification](https://arxiv.org/abs/2506.07235)**   
-   **Tianyi Bai**, Zengjie Hu, Fupeng Sun, Jiantao Qiu, Yizhen Jiang, Guangxin He, Bohan Zeng, Conghui He, Binhang Yuan, Wentao Zhang  
-  *NeurIPS 2025*
+<div class="tb-project-grid">
+  <article class="tb-project-card">
+    <span>Computer Use Agent</span>
+    <h3><a href="https://qwen.ai/blog?id=qwen3.6">Qwen3.5 / Qwen3.6</a></h3>
+    <p>Leading Computer Use Agent capability work across RL infrastructure, annotation quality, data pipelines, training, evaluation, and bad case analysis.</p>
+  </article>
+  <article class="tb-project-card">
+    <span>Coding Agent</span>
+    <h3><a href="https://github.com/QwenLM/Qwen3-Coder">Qwen3-Coder</a></h3>
+    <p>Contributed to the Browser Use Agent module, including browser interaction data construction, capability improvement, training pipeline support, and evaluation.</p>
+  </article>
+  <article class="tb-project-card">
+    <span>Data Pipeline</span>
+    <h3><a href="https://github.com/OpenDCAI/DataFlow">DataFlow</a></h3>
+    <p>Responsible for the coding pipeline, including code data processing, quality filtering, pipeline orchestration, and preparation of training-ready code data.</p>
+  </article>
+</div>
 
-* **[Hallucination at a Glance: Controlled Visual Edits and Fine-Grained Multimodal Learning](https://arxiv.org/abs/2506.07227)**   
-   **Tianyi Bai**, Yuxuan Fan, Jiantao Qiu, Fupeng Sun, Jiayi Song, Junlin Han, Zichen Liu, Conghui He, Wentao Zhang, Binhang Yuan   
-  *NeurIPS 2025*
+## Selected Work
 
-* **[Efficient Pretraining Data Selection for Language Models via Multi-Actor Collaboration](https://arxiv.org/pdf/2410.08102)**   
-    **Tianyi Bai**, Ling Yang, Zhen Hao Wong, Fupeng Sun, Jiahui Peng, Xinlin Zhuang, Chi Zhang, Lijun Wu, Jiantao Qiu, Wentao Zhang, Binhang Yuan, Conghui He   
-    *ACL 2025 Main*
+<div class="tb-paper-list">
+  <article>
+    <p class="tb-paper-venue"><span class="tb-paper-tag">Coding Agent</span>Technical Report</p>
+    <h3><a href="https://arxiv.org/abs/2603.00729">Qwen3-Coder-Next Technical Report</a></h3>
+    <p>Contributor</p>
+  </article>
+  <article>
+    <p class="tb-paper-venue"><span class="tb-paper-tag">Multimodal Reasoning</span>NeurIPS 2025</p>
+    <h3><a href="https://arxiv.org/abs/2506.07227">Hallucination at a Glance: Controlled Visual Edits and Fine-Grained Multimodal Learning</a></h3>
+    <p><strong>Tianyi Bai</strong>, Yuxuan Fan, Jiantao Qiu, Fupeng Sun, Jiayi Song, Junlin Han, Zichen Liu, Conghui He, Wentao Zhang, Binhang Yuan</p>
+  </article>
+  <article>
+    <p class="tb-paper-venue"><span class="tb-paper-tag">Visual Reasoning</span>NeurIPS 2025</p>
+    <h3><a href="https://arxiv.org/abs/2506.07235">Multi-Step Visual Reasoning with Visual Tokens Scaling and Verification</a></h3>
+    <p><strong>Tianyi Bai</strong>, Zengjie Hu, Fupeng Sun, Jiantao Qiu, Yizhen Jiang, Guangxin He, Bohan Zeng, Conghui He, Binhang Yuan, Wentao Zhang</p>
+  </article>
+  <article>
+    <p class="tb-paper-venue"><span class="tb-paper-tag">Data Selection</span>ACL 2025 Main</p>
+    <h3><a href="https://arxiv.org/pdf/2410.08102">Efficient Pretraining Data Selection for Language Models via Multi-Actor Collaboration</a></h3>
+    <p><strong>Tianyi Bai</strong>, Ling Yang, Zhen Hao Wong, Fupeng Sun, Jiahui Peng, Xinlin Zhuang, Chi Zhang, Lijun Wu, Jiantao Qiu, Wentao Zhang, Binhang Yuan, Conghui He</p>
+  </article>
+  <article>
+    <p class="tb-paper-venue"><span class="tb-paper-tag">Synthetic Data</span>ICLR 2025 Spotlight</p>
+    <h3><a href="https://arxiv.org/pdf/2410.09732">LOKI: A Comprehensive Synthetic Data Detection Benchmark using Large Multimodal Models</a></h3>
+    <p>Co-first author</p>
+  </article>
+  <article>
+    <p class="tb-paper-venue"><span class="tb-paper-tag">Data-Centric AI</span>ACM Computing Surveys, major revision</p>
+    <h3><a href="https://arxiv.org/abs/2405.16640">A Survey of Multimodal Large Language Model from A Data-centric Perspective</a></h3>
+    <p><strong>Tianyi Bai</strong>, Hao Liang, Binwang Wan, Ling Yang, Bozhou Li, Yifan Wang, Bin Cui, Conghui He, Binhang Yuan, Wentao Zhang</p>
+  </article>
+</div>
 
-* **[A Survey of Multimodal Large Language Model from A Data-centric Perspective](https://arxiv.org/abs/2405.16640)**    
-    **Tianyi Bai**, Hao Liang, Binwang Wan, Ling Yang, Bozhou Li, Yifan Wang, Bin Cui, Conghui He, Binhang Yuan, Wentao Zhang   
-    *ACM Computing Survey in submission* 
+## Experience
 
-Full list in [Google Scholar](https://scholar.google.com/citations?user=s3cJW70AAAAJ&hl=). 
-
-
-Education
------
-* **Hong Kong University of Science and Technology**  
-**PhD in Computer Science and Engineering**  
-*September 2023-present*
-
-
-Intern & Work Experience
------
-* **Shanghai Artificial Intelligence Laboratory, Shanghai, China**   
-*May 2024 to May 2025*    
-Position: Research Intern  
-Project:    
-  * Data-efficient LLM pretraining (supervised by [Dr. Conghui He](https://conghui.github.io/) and [Dr. Jiantao Qiu](https://scholar.google.com/citations?user=Vm8bStkAAAAJ&hl=en)) --> [Multi-Agent Collaborative Data Selection for Efficient LLM Pretraining](https://arxiv.org/pdf/2410.08102)  
-  * Synthetic Data Detection (supervised by [Dr. Conghui He](https://conghui.github.io/) and [Prof. Weijia Li](https://liweijia.github.io/)) --> [LOKI: A Comprehensive Synthetic Data Detection Benchmark using Large Multimodal Models](https://arxiv.org/pdf/2410.09732)  
- 
-* **Peking University, Beijing, China**    
-*January 2024 to Present*    
-Position: Research Intern supervised by [Prof. Wentao Zhang](https://zwt233.github.io/)      
-Project:    
-  * Data-centric Generative AI --> [A Survey of Multimodal Large Language Model from A Data-centric Perspective](https://arxiv.org/abs/2405.16640)  
-  
-* **Peking University, Beijing, China**   
-*July 2021 to July 2023*    
-Position: Research Intern in [Prof. Bin Cui](https://cuibinpku.github.io/)'s Group   
-Projects:
-  * Transfer Learning for Bayesian Optimization --> **First author preprint review**: [Transfer Learning for Bayesian Optimization: A Survey](https://arxiv.org/abs/2302.05927)  
-  * Transfer Learning based Hyperparameter Optimization --> **KDD2022**: [Transfer Learning based Search Space Design for Hyperparameter Tuning](https://dl.acm.org/doi/10.1145/3534678.3539369)   
+<ul class="tb-timeline">
+  <li><span class="tb-meta">May 2025 - Present / Alibaba Qwen Team</span><strong>Research Intern</strong><br>I work on agent capabilities for Qwen models, including Browser Use Agent for Qwen3-Coder and Computer Use Agent for Qwen3.5/Qwen3.6. My work spans data construction, RL infrastructure, training, evaluation, and failure analysis.</li>
+  <li><span class="tb-meta">Dec 2023 - Present / Peking University DCAI Group</span><strong>Research Assistant</strong><br>I contribute to DataFlow, with a focus on code-data workflows, coding pipeline construction, data processing, and quality filtering for training-ready code data.</li>
+  <li><span class="tb-meta">Mar 2024 - May 2025 / Shanghai Artificial Intelligence Laboratory, OpenDataLab</span><strong>Research Intern</strong><br>I worked on data preparation and selection for LLM pretraining, including data management strategies for InternLM3-8B and Ray-based labeling pipelines for data selection.</li>
+  <li><span class="tb-meta">Jul 2021 - Jul 2023 / Peking University DAIR Group</span><strong>Research Assistant</strong><br>I studied transfer learning for Bayesian optimization and hyperparameter tuning. This work led to a KDD 2022 paper on transfer-learning-based search space design.</li>
+</ul>

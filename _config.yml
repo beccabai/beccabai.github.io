@@ -10,7 +10,7 @@ locale                   : "HKUST, Clear Water Bay, Kowloon, Hong Kong"
 title                    : "Tianyi Bai"
 title_separator          : "-"
 name                     : &name "Tianyi Bai"
-description              : &description "personal description"
+description              : &description "Tianyi Bai is a Ph.D. student at HKUST working on efficient LLM training, multimodal reasoning, and computer/browser use agents."
 url                      : https://beccabai.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "beccabai/beccabai.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Tianyi Bai (白天祎)"
   avatar           : "photo3.jpg"
-  bio              : "Ph.D. Student"
+  bio              : "Ph.D. Student - LLM & Multimodal Agents"
   location         : "Clear Water Bay, Hong Kong"
   employer         :
   pubmed           :  # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

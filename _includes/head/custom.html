@@ -35,4 +35,99 @@
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var masthead = document.querySelector(".masthead");
+    if (!masthead) return;
+
+    var navTrigger = document.createElement("div");
+    navTrigger.className = "tb-nav-trigger";
+    navTrigger.setAttribute("aria-hidden", "true");
+    masthead.insertAdjacentElement("afterend", navTrigger);
+
+    var closeTimer;
+    function openNav() {
+      window.clearTimeout(closeTimer);
+      masthead.classList.add("is-open");
+    }
+    function closeNav() {
+      closeTimer = window.setTimeout(function () {
+        masthead.classList.remove("is-open");
+      }, 320);
+    }
+
+    document.addEventListener("mousemove", function (event) {
+      if (event.clientY <= 32) openNav();
+    });
+    navTrigger.addEventListener("mouseenter", openNav);
+    navTrigger.addEventListener("mousemove", openNav);
+    navTrigger.addEventListener("mouseleave", closeNav);
+    masthead.addEventListener("mouseenter", openNav);
+    masthead.addEventListener("mouseleave", closeNav);
+    masthead.addEventListener("focusin", openNav);
+    masthead.addEventListener("focusout", closeNav);
+
+    var landing = document.querySelector(".tb-landing");
+    if (!landing) return;
+
+    document.body.classList.add("tb-home");
+
+    var scrollOrbit = document.createElement("div");
+    scrollOrbit.className = "tb-scroll-orbit";
+    scrollOrbit.setAttribute("aria-hidden", "true");
+    document.body.appendChild(scrollOrbit);
+
+    var revealItems = document.querySelectorAll(
+      ".page__content > h2, .tb-project-grid, .tb-paper-list article, .tb-timeline li"
+    );
+    for (var i = 0; i < revealItems.length; i += 1) {
+      revealItems[i].classList.add("tb-reveal");
+    }
+
+    if ("IntersectionObserver" in window) {
+      var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { rootMargin: "0px 0px -12% 0px", threshold: 0.12 });
+
+      revealItems.forEach(function (item) {
+        observer.observe(item);
+      });
+    } else {
+      revealItems.forEach(function (item) {
+        item.classList.add("is-visible");
+      });
+    }
+
+    var ticking = false;
+    function updateScrollMotion() {
+      var maxScroll = Math.max(document.documentElement.scrollHeight - window.innerHeight, 1);
+      var pageProgress = Math.min(Math.max(window.scrollY / maxScroll, 0), 1);
+      var heroProgress = Math.min(window.scrollY / 520, 1);
+      var rootStyle = document.documentElement.style;
+
+      rootStyle.setProperty("--tb-scroll", heroProgress.toFixed(3));
+      rootStyle.setProperty("--tb-progress", pageProgress.toFixed(3));
+      rootStyle.setProperty("--tb-progress-pct", (pageProgress * 100).toFixed(2) + "%");
+      rootStyle.setProperty("--tb-orbit-opacity", (0.2 + pageProgress * 0.65).toFixed(3));
+      rootStyle.setProperty("--tb-bg-a-x", (18 + pageProgress * 22).toFixed(2) + "%");
+      rootStyle.setProperty("--tb-bg-a-y", (8 + pageProgress * 12).toFixed(2) + "%");
+      rootStyle.setProperty("--tb-bg-b-x", (82 - pageProgress * 18).toFixed(2) + "%");
+      rootStyle.setProperty("--tb-bg-b-y", (16 + pageProgress * 18).toFixed(2) + "%");
+      ticking = false;
+    }
+    window.addEventListener("scroll", function () {
+      if (!ticking) {
+        window.requestAnimationFrame(updateScrollMotion);
+        ticking = true;
+      }
+    }, { passive: true });
+    updateScrollMotion();
+  });
+</script>
+
 <!-- end custom head snippets -->

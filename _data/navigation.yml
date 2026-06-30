@@ -1,5 +1,14 @@
 # main links links
 main:
+  - title: "Home"
+    url: /
+
+  - title: "CV"
+    url: /cv/
+
+  - title: "Google Scholar"
+    url: https://scholar.google.com/citations?user=s3cJW70AAAAJ&hl=zh-CN&oi=ao
+
   # - title: "Publications"
   #   url: /publications/
 
@@ -14,9 +23,6 @@ main:
         
 #   - title: "Blog Posts"
 #     url: /year-archive/
-    
-#   - title: "CV"
-#     url: /cv/
     
 #   - title: "Guide"
 #     url: /markdown/
