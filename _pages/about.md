@@ -12,7 +12,7 @@ redirect_from:
   <div class="tb-landing__copy">
     <p class="tb-kicker">HKUST CSE Ph.D. / Agentic AI / Data-Centric AI</p>
     <h1>Tianyi Bai</h1>
-    <p class="tb-lead">My research focuses on building data-aware agentic systems that can reason, code, and interact with complex multimodal environments. I am a Ph.D. student at HKUST supervised by <a href="https://binhangyuan.github.io/site/">Prof. Binhang Yuan</a>. I am also fortunate to intern at Qwen, where I am supervised by <a href="https://huybery.github.io/">Binyuan Hui</a> and <a href="https://justinlin610.github.io/">Junyang Lin</a>. I also collaborate with <a href="https://zwt233.github.io/">Prof. Wentao Zhang</a> at PKU DCAI.</p>
+    <p class="tb-lead">My research centers on computer use agents, coding agents, multimodal reasoning, and data-centric AI. I am a Ph.D. student at HKUST supervised by <a href="https://binhangyuan.github.io/site/">Prof. Binhang Yuan</a>. I am also fortunate to intern at Qwen, where I am supervised by <a href="https://huybery.github.io/">Binyuan Hui</a> and <a href="https://justinlin610.github.io/">Junyang Lin</a>. I also collaborate with <a href="https://zwt233.github.io/">Prof. Wentao Zhang</a> at PKU DCAI.</p>
     <div class="tb-actions">
       <a href="/cv/">CV</a>
       <a href="https://scholar.google.com/citations?user=s3cJW70AAAAJ&hl=zh-CN&oi=ao">Google Scholar</a>
