@@ -104,7 +104,7 @@ redirect_from:
 
 <ul class="tb-timeline">
   <li><span class="tb-meta">May 2025 - Present / Alibaba Qwen Team</span><strong>Research Intern</strong><br>I work on agent capabilities for Qwen models, including Browser Use Agent for Qwen3-Coder and Computer Use Agent for Qwen3.5/Qwen3.6. My work spans data construction, RL infrastructure, training, evaluation, and failure analysis.</li>
-  <li><span class="tb-meta">Dec 2023 - Present / Peking University DCAI Group</span><strong>Research Assistant</strong><br>I contribute to DataFlow, with a focus on code-data workflows, code data pipeline construction, data processing, and quality filtering for training-ready code data.</li>
+  <li><span class="tb-meta">Dec 2023 - Dec 2025 / Peking University DCAI Group</span><strong>Research Assistant</strong><br>I contribute to DataFlow, with a focus on code-data workflows, code data pipeline construction, data processing, and quality filtering for training-ready code data.</li>
   <li><span class="tb-meta">Mar 2024 - May 2025 / Shanghai Artificial Intelligence Laboratory, OpenDataLab</span><strong>Research Intern</strong><br>I worked on data preparation and selection for LLM pretraining, including data management strategies for InternLM3-8B and Ray-based labeling pipelines for data selection.</li>
   <li><span class="tb-meta">Jul 2021 - Jul 2023 / Peking University DAIR Group</span><strong>Research Assistant</strong><br>I studied transfer learning for Bayesian optimization and hyperparameter tuning. This work led to a KDD 2022 paper on transfer-learning-based search space design.</li>
 </ul>
