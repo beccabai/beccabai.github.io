@@ -218,11 +218,22 @@ a:hover {
 }
 
 .page__title {
-  margin-bottom: 1.15rem;
+  margin-top: 0.35rem;
+  margin-bottom: 1.25rem;
   color: var(--tb-ink);
   font-size: 1.85rem;
   font-weight: 780;
   letter-spacing: 0;
+}
+
+.archive > .page__title {
+  margin-top: 1.05rem;
+  padding-top: 0.85rem;
+}
+
+.archive > .page__title:has(+ .tb-landing) {
+  display: none;
+  padding-top: 0;
 }
 
 .page .page__inner-wrap:has(.tb-landing) .page__title {
@@ -729,11 +740,30 @@ a:hover {
 }
 
 .tb-meta {
-  display: block;
-  margin-bottom: 0.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.22rem 0.55rem;
+  margin-bottom: 0.35rem;
   color: #8f6670;
   font-size: 0.78rem;
   font-weight: 740;
+}
+
+.tb-meta > span {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+}
+
+.tb-meta > span + span:before {
+  width: 0.22rem;
+  height: 0.22rem;
+  margin-right: 0.55rem;
+  border-radius: 50%;
+  background: rgba(143, 102, 112, 0.45);
+  content: "";
+  flex: 0 0 auto;
 }
 
 .tb-compact-list li {
@@ -965,6 +995,13 @@ a:hover {
     padding-right: 0.85rem;
   }
 
+  .archive > .page__title {
+    margin-top: 1.45rem;
+    margin-bottom: 1.45rem;
+    padding-top: 1.05rem;
+    font-size: 2.15rem;
+  }
+
   .greedy-nav .visible-links {
     gap: 0.85rem;
     overflow-x: auto;
@@ -1007,6 +1044,32 @@ a:hover {
     min-height: 1.95rem;
     padding: 0.32rem 0.62rem;
     font-size: 0.78rem;
+  }
+
+  .tb-timeline {
+    margin-top: 0.85rem;
+  }
+
+  .tb-timeline li {
+    padding-left: 0.85rem;
+  }
+
+  .tb-meta {
+    gap: 0.38rem 0.42rem;
+    margin-bottom: 0.45rem;
+    font-size: 0.72rem;
+    line-height: 1.25;
+  }
+
+  .tb-meta > span {
+    padding: 0.16rem 0.42rem;
+    border: 1px solid rgba(185, 137, 146, 0.22);
+    border-radius: 999px;
+    background: rgba(255, 249, 245, 0.68);
+  }
+
+  .tb-meta > span + span:before {
+    display: none;
   }
 
   .tb-landing__aside {
@@ -1064,9 +1127,16 @@ a:hover {
 
 @media (max-width: 430px) {
   #main {
-    margin-top: 1.55rem;
+    margin-top: 1.85rem;
     padding-left: 0.65rem;
     padding-right: 0.65rem;
+  }
+
+  .archive > .page__title {
+    margin-top: 1.75rem;
+    margin-bottom: 1.35rem;
+    padding-top: 1.2rem;
+    font-size: 2rem;
   }
 
   .tb-landing {
@@ -1093,5 +1163,13 @@ a:hover {
 
   .tb-metrics strong {
     font-size: 0.7rem;
+  }
+
+  .tb-meta {
+    font-size: 0.68rem;
+  }
+
+  .tb-meta > span {
+    max-width: 100%;
   }
 }
