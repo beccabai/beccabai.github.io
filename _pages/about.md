@@ -12,7 +12,7 @@ redirect_from:
   <div class="tb-landing__copy">
     <p class="tb-kicker">HKUST CSE Ph.D. / Agentic AI / Data-Centric AI</p>
     <h1>Tianyi Bai</h1>
-    <p class="tb-lead">I am a Ph.D. student in Computer Science at HKUST, supervised by <a href="https://binhangyuan.github.io/site/">Prof. Binhang Yuan</a>. My research focuses on computer use agents, coding agents, multimodal reasoning, and data-centric AI, with an emphasis on building capable models through better data, training, and evaluation. I am fortunate to intern at Qwen, where I work with <a href="https://huybery.github.io/">Binyuan Hui</a> and <a href="https://justinlin610.github.io/">Junyang Lin</a>. I also collaborate with <a href="https://zwt233.github.io/">Prof. Wentao Zhang</a> at PKU DCAI.</p>
+    <p class="tb-lead">I am a Ph.D. student in Computer Science at HKUST, advised by <a href="https://binhangyuan.github.io/site/">Prof. Binhang Yuan</a>. My research focuses on building capable computer-use and coding agents, with an emphasis on data-centric methods for improving their training, evaluation, and multimodal reasoning abilities. I am fortunate to intern at Qwen, where I work with <a href="https://huybery.github.io/">Binyuan Hui</a> and <a href="https://justinlin610.github.io/">Junyang Lin</a>. I also collaborate with <a href="https://zwt233.github.io/">Prof. Wentao Zhang</a> at PKU DCAI.</p>
     <div class="tb-actions">
       <a href="/cv/">CV</a>
       <a href="https://scholar.google.com/citations?user=s3cJW70AAAAJ&hl=zh-CN&oi=ao">Google Scholar</a>
