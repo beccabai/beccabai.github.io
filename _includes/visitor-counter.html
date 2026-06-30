@@ -1,7 +1,29 @@
-<div class="tb-visitor-counter" aria-label="Site visits">
+<div class="tb-visitor-counter" aria-label="Site views">
   <span class="tb-visitor-counter__dot"></span>
+  <span class="tb-visitor-counter__label">Views</span>
   <img
-    src="https://visitor-badge.laobi.icu/badge?page_id=beccabai.github.io&left_text=site%20visits&left_color=%23b98992&right_color=%238f6670&format=true&radius=10&height=24"
-    alt="Site visit count"
+    class="tb-visitor-counter__today"
+    alt="Today's view count"
+    loading="lazy">
+  <img
+    src="https://visitor-badge.laobi.icu/badge?page_id=beccabai.github.io&left_text=total&left_color=%23b98992&right_color=%238f6670&format=true&radius=10&height=24"
+    alt="Total view count"
     loading="lazy">
 </div>
+<script>
+  (function () {
+    var today = document.querySelector(".tb-visitor-counter__today");
+    if (!today) return;
+    var parts = new Intl.DateTimeFormat("en", {
+      timeZone: "Asia/Hong_Kong",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit"
+    }).formatToParts(new Date()).reduce(function (acc, part) {
+      acc[part.type] = part.value;
+      return acc;
+    }, {});
+    var dateKey = parts.year + "-" + parts.month + "-" + parts.day;
+    today.src = "https://visitor-badge.laobi.icu/badge?page_id=beccabai.github.io.today." + dateKey + "&left_text=today&left_color=%23b98992&right_color=%238f6670&format=true&radius=10&height=24";
+  })();
+</script>

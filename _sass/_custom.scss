@@ -908,7 +908,9 @@ a:hover {
   width: max-content;
   max-width: calc(100% - 2rem);
   align-items: center;
-  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.42rem 0.5rem;
   margin: 1.2rem auto 0.85rem;
   padding: 0.44rem 0.62rem;
   border: 1px solid rgba(185, 137, 146, 0.24);
@@ -931,6 +933,9 @@ a:hover {
 }
 
 .tb-visitor-counter__label {
+  color: #8f6670;
+  font-size: 0.7rem;
+  text-transform: uppercase;
   white-space: nowrap;
 }
 
@@ -1346,6 +1351,7 @@ a:hover {
 
   .tb-visitor-counter {
     gap: 0.42rem;
+    max-width: min(21rem, calc(100% - 1.2rem));
     padding: 0.4rem 0.52rem;
     font-size: 0.66rem;
   }
