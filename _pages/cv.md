@@ -11,13 +11,25 @@ redirect_from:
 
 ## Education
 
-* **Hong Kong University of Science and Technology**, Hong Kong
-  Ph.D. in Computer Science and Engineering, Sep 2023 - 2026 expected
-  Supervisor: Binhang Yuan
-
-* **Beijing Institute of Technology**, Beijing
-  B.S. in Statistics, School of Mathematics and Statistics, Sep 2019 - Jun 2023
-  B.Eng. minor in Artificial Intelligence, School of Computer Science
+<div class="tb-education-list">
+  <article>
+    <div class="tb-edu-head">
+      <h3>Hong Kong University of Science and Technology</h3>
+      <span>Hong Kong</span>
+    </div>
+    <p>Ph.D. in Computer Science and Engineering</p>
+    <div class="tb-meta"><span>Sep 2023 - 2026 expected</span><span>Supervisor: Binhang Yuan</span></div>
+  </article>
+  <article>
+    <div class="tb-edu-head">
+      <h3>Beijing Institute of Technology</h3>
+      <span>Beijing</span>
+    </div>
+    <p>B.S. in Statistics, School of Mathematics and Statistics</p>
+    <p>B.Eng. minor in Artificial Intelligence, School of Computer Science</p>
+    <div class="tb-meta"><span>Sep 2019 - Jun 2023</span></div>
+  </article>
+</div>
 
 ## Representative Work
 
@@ -44,25 +56,33 @@ redirect_from:
 
 ## Selected Publications
 
-* **[Hallucination at a Glance: Controlled Visual Edits and Fine-Grained Multimodal Learning](https://arxiv.org/abs/2506.07227)**
-  First author, *NeurIPS 2025*
-  Introduces the MicroEdit Dataset and a fine-tuning framework that improves MLLM sensitivity to fine-grained visual differences.
-
-* **[Multi-Step Visual Reasoning with Visual Tokens Scaling and Verification](https://arxiv.org/abs/2506.07235)**
-  First author, *NeurIPS 2025*
-  Proposes scalable token-based iterative reasoning and verification for complex visual reasoning.
-
-* **[Efficient Pretraining Data Selection for Language Models via Multi-Actor Collaboration](https://arxiv.org/pdf/2410.08102)**
-  First author, *ACL 2025 Main*
-  Presents a multi-actor collaborative data selection framework for more efficient language model pretraining.
-
-* **[LOKI: A Comprehensive Synthetic Data Detection Benchmark using Large Multimodal Models](https://arxiv.org/pdf/2410.09732)**
-  Co-first author, *ICLR 2025 Spotlight*
-  Benchmarks MLLMs across video, image, 3D, text, and audio synthetic data detection tasks.
-
-* **[A Survey of Multimodal Large Language Model from A Data-centric Perspective](https://arxiv.org/abs/2405.16640)**
-  First author, *ACM Computing Surveys, major revision*
-  Surveys multimodal large language models from data preparation, evaluation, benchmarks, and future directions.
+<div class="tb-paper-list">
+  <article>
+    <p class="tb-paper-venue"><span class="tb-paper-tag">Multimodal Learning</span><span>First author</span><span>NeurIPS 2025</span></p>
+    <h3><a href="https://arxiv.org/abs/2506.07227">Hallucination at a Glance: Controlled Visual Edits and Fine-Grained Multimodal Learning</a></h3>
+    <p>Introduces the MicroEdit Dataset and a fine-tuning framework that improves MLLM sensitivity to fine-grained visual differences.</p>
+  </article>
+  <article>
+    <p class="tb-paper-venue"><span class="tb-paper-tag">Visual Reasoning</span><span>First author</span><span>NeurIPS 2025</span></p>
+    <h3><a href="https://arxiv.org/abs/2506.07235">Multi-Step Visual Reasoning with Visual Tokens Scaling and Verification</a></h3>
+    <p>Proposes scalable token-based iterative reasoning and verification for complex visual reasoning.</p>
+  </article>
+  <article>
+    <p class="tb-paper-venue"><span class="tb-paper-tag">Data Selection</span><span>First author</span><span>ACL 2025 Main</span></p>
+    <h3><a href="https://arxiv.org/pdf/2410.08102">Efficient Pretraining Data Selection for Language Models via Multi-Actor Collaboration</a></h3>
+    <p>Presents a multi-actor collaborative data selection framework for more efficient language model pretraining.</p>
+  </article>
+  <article>
+    <p class="tb-paper-venue"><span class="tb-paper-tag">Synthetic Data</span><span>Co-first author</span><span>ICLR 2025 Spotlight</span></p>
+    <h3><a href="https://arxiv.org/pdf/2410.09732">LOKI: A Comprehensive Synthetic Data Detection Benchmark using Large Multimodal Models</a></h3>
+    <p>Benchmarks MLLMs across video, image, 3D, text, and audio synthetic data detection tasks.</p>
+  </article>
+  <article>
+    <p class="tb-paper-venue"><span class="tb-paper-tag">Data-Centric AI</span><span>First author</span><span>ACM Computing Surveys, major revision</span></p>
+    <h3><a href="https://arxiv.org/abs/2405.16640">A Survey of Multimodal Large Language Model from A Data-centric Perspective</a></h3>
+    <p>Surveys multimodal large language models from data preparation, evaluation, benchmarks, and future directions.</p>
+  </article>
+</div>
 
 ## Internships
 
