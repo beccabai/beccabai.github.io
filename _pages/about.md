@@ -65,6 +65,11 @@ redirect_from:
     <p>Contributor</p>
   </article>
   <article>
+    <p class="tb-paper-venue"><span class="tb-paper-tag">Multimodal Geometry</span>ICML 2026</p>
+    <h3><a href="https://arxiv.org/pdf/2602.18745">Synthesizing Multimodal Geometry Datasets from Scratch and Enabling Visual Alignment via Plotting Code</a></h3>
+    <p>Mentor</p>
+  </article>
+  <article>
     <p class="tb-paper-venue"><span class="tb-paper-tag">Multimodal Reasoning</span>NeurIPS 2025</p>
     <h3><a href="https://arxiv.org/abs/2506.07227">Hallucination at a Glance: Controlled Visual Edits and Fine-Grained Multimodal Learning</a></h3>
     <p><strong>Tianyi Bai</strong>, Yuxuan Fan, Jiantao Qiu, Fupeng Sun, Jiayi Song, Junlin Han, Zichen Liu, Conghui He, Wentao Zhang, Binhang Yuan</p>

@@ -58,6 +58,11 @@ redirect_from:
 
 <div class="tb-paper-list">
   <article>
+    <p class="tb-paper-venue"><span class="tb-paper-tag">Multimodal Geometry</span><span>Mentor</span><span>ICML 2026</span></p>
+    <h3><a href="https://arxiv.org/pdf/2602.18745">Synthesizing Multimodal Geometry Datasets from Scratch and Enabling Visual Alignment via Plotting Code</a></h3>
+    <p>Mentored junior collaborator on synthetic multimodal geometry dataset generation and visual alignment with plotting code.</p>
+  </article>
+  <article>
     <p class="tb-paper-venue"><span class="tb-paper-tag">Multimodal Learning</span><span>First author</span><span>NeurIPS 2025</span></p>
     <h3><a href="https://arxiv.org/abs/2506.07227">Hallucination at a Glance: Controlled Visual Edits and Fine-Grained Multimodal Learning</a></h3>
     <p>Introduces the MicroEdit Dataset and a fine-tuning framework that improves MLLM sensitivity to fine-grained visual differences.</p>
