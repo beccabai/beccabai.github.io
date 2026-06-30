@@ -627,7 +627,19 @@ a:hover {
   border-radius: 9px;
   background: rgba(255, 255, 255, 0.82);
   box-shadow: 0 12px 30px rgba(143, 102, 112, 0.08);
+  cursor: zoom-in;
   object-fit: contain;
+  transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+}
+
+.tb-project-thumb:hover,
+.tb-project-thumb:focus-visible,
+.tb-paper-thumb:hover,
+.tb-paper-thumb:focus-visible {
+  border-color: rgba(143, 102, 112, 0.34);
+  box-shadow: 0 14px 34px rgba(143, 102, 112, 0.14);
+  outline: none;
+  transform: translateY(-1px);
 }
 
 .tb-project-card > span,
@@ -834,7 +846,90 @@ a:hover {
   border-radius: 7px;
   background: rgba(255, 255, 255, 0.82);
   box-shadow: 0 10px 24px rgba(143, 102, 112, 0.07);
+  cursor: zoom-in;
   object-fit: contain;
+  transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+}
+
+.tb-image-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 3000;
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+  background: rgba(53, 45, 49, 0.42);
+  backdrop-filter: blur(16px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 180ms ease;
+}
+
+.tb-image-lightbox.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.tb-lightbox-open {
+  overflow: hidden;
+}
+
+.tb-image-lightbox__frame {
+  display: grid;
+  max-width: min(92vw, 1180px);
+  max-height: 88vh;
+  gap: 0.65rem;
+  padding: 0.74rem;
+  border: 1px solid rgba(234, 223, 221, 0.92);
+  border-radius: 14px;
+  background: rgba(255, 250, 247, 0.95);
+  box-shadow: 0 30px 90px rgba(53, 45, 49, 0.28);
+  transform: translateY(8px) scale(0.985);
+  transition: transform 180ms ease;
+}
+
+.tb-image-lightbox.is-open .tb-image-lightbox__frame {
+  transform: translateY(0) scale(1);
+}
+
+.tb-image-lightbox img {
+  display: block;
+  max-width: calc(92vw - 1.5rem);
+  max-height: calc(88vh - 4.5rem);
+  border-radius: 10px;
+  background: #fff;
+  object-fit: contain;
+}
+
+.tb-image-lightbox p {
+  margin: 0;
+  color: #8f6670;
+  font-size: 0.78rem;
+  line-height: 1.35;
+  text-align: center;
+}
+
+.tb-image-lightbox__close {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  display: grid;
+  width: 2.2rem;
+  height: 2.2rem;
+  place-items: center;
+  border: 1px solid rgba(234, 223, 221, 0.86);
+  border-radius: 999px;
+  background: rgba(255, 250, 247, 0.92);
+  box-shadow: 0 14px 38px rgba(53, 45, 49, 0.20);
+  color: #805762;
+  cursor: pointer;
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.tb-image-lightbox__close:hover {
+  background: #fffaf7;
+  color: #536f5a;
 }
 
 .tb-paper-list--selected .tb-paper-venue {
