@@ -60,14 +60,14 @@ redirect_from:
 
 <div class="tb-paper-list">
   <article>
-    <p class="tb-paper-venue"><span class="tb-paper-tag">Coding Agent</span>Technical Report</p>
+    <p class="tb-paper-venue"><span class="tb-paper-tag">Coding Agent</span><span>Technical Report</span></p>
     <h3><a href="https://arxiv.org/abs/2603.00729">Qwen3-Coder-Next Technical Report</a></h3>
-    <p>Contributor</p>
+    <p>Qwen Team</p>
   </article>
   <article>
-    <p class="tb-paper-venue"><span class="tb-paper-tag">Multimodal Geometry</span>ICML 2026</p>
+    <p class="tb-paper-venue"><span class="tb-paper-tag">Multimodal Geometry</span><span>Mentor</span><span>ICML 2026</span></p>
     <h3><a href="https://arxiv.org/pdf/2602.18745">Synthesizing Multimodal Geometry Datasets from Scratch and Enabling Visual Alignment via Plotting Code</a></h3>
-    <p>Mentor</p>
+    <p>Haobo Lin, <strong>Tianyi Bai</strong>, Chen Chen, Jiajun Zhang, Bohan Zeng, Wentao Zhang, Binhang Yuan</p>
   </article>
   <article>
     <p class="tb-paper-venue"><span class="tb-paper-tag">Multimodal Reasoning</span>NeurIPS 2025</p>
@@ -83,11 +83,6 @@ redirect_from:
     <p class="tb-paper-venue"><span class="tb-paper-tag">Data Selection</span>ACL 2025 Main</p>
     <h3><a href="https://arxiv.org/pdf/2410.08102">Efficient Pretraining Data Selection for Language Models via Multi-Actor Collaboration</a></h3>
     <p><strong>Tianyi Bai</strong>, Ling Yang, Zhen Hao Wong, Fupeng Sun, Jiahui Peng, Xinlin Zhuang, Chi Zhang, Lijun Wu, Jiantao Qiu, Wentao Zhang, Binhang Yuan, Conghui He</p>
-  </article>
-  <article>
-    <p class="tb-paper-venue"><span class="tb-paper-tag">Synthetic Data</span>ICLR 2025 Spotlight</p>
-    <h3><a href="https://arxiv.org/pdf/2410.09732">LOKI: A Comprehensive Synthetic Data Detection Benchmark using Large Multimodal Models</a></h3>
-    <p>Co-first author</p>
   </article>
   <article>
     <p class="tb-paper-venue"><span class="tb-paper-tag">Data-Centric AI</span>ACM Computing Surveys, major revision</p>

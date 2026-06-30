@@ -759,6 +759,12 @@ a:hover {
 .tb-paper-venue > span:not(.tb-paper-tag) {
   display: inline-flex;
   align-items: center;
+  min-height: 1.35rem;
+  padding: 0.12rem 0.48rem;
+  border: 1px solid rgba(185, 137, 146, 0.18);
+  border-radius: 999px;
+  background: rgba(255, 249, 245, 0.68);
+  line-height: 1;
 }
 
 .tb-paper-tag {
@@ -1192,9 +1198,6 @@ a:hover {
   .tb-paper-venue > span:not(.tb-paper-tag) {
     min-height: 1.25rem;
     padding: 0.1rem 0.42rem;
-    border: 1px solid rgba(185, 137, 146, 0.18);
-    border-radius: 999px;
-    background: rgba(255, 249, 245, 0.68);
   }
 
   .tb-paper-tag {
