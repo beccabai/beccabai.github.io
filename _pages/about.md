@@ -58,7 +58,7 @@ redirect_from:
 
 ## Selected Work
 
-<div class="tb-paper-list">
+<div class="tb-paper-list tb-paper-list--selected">
   <article>
     <p class="tb-paper-venue"><span class="tb-paper-tag">Coding Agent</span><span>Technical Report</span></p>
     <h3><a href="https://arxiv.org/abs/2603.00729">Qwen3-Coder-Next Technical Report</a></h3>
