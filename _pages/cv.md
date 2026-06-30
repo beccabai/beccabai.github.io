@@ -50,7 +50,7 @@ redirect_from:
     <span class="tb-card-label">Data Pipeline</span>
     <h3><a href="https://github.com/OpenDCAI/DataFlow">DataFlow</a></h3>
     <p><strong>Core contributor, 2025.</strong></p>
-    <p>Responsible for the coding pipeline, including code data processing, quality filtering, pipeline orchestration, and preparation of training-ready code data.</p>
+    <p>Responsible for the code data pipeline, including code data processing, quality filtering, pipeline orchestration, and preparation of training-ready code data.</p>
   </article>
 </div>
 
@@ -93,7 +93,7 @@ redirect_from:
 
 <ul class="tb-timeline">
   <li><span class="tb-meta"><span>May 2025 - Present</span><span>Alibaba Qwen Team</span><span>Beijing</span></span><strong>Research Intern</strong><br>Work on agent capabilities for Qwen models, including Browser Use Agent for Qwen3-Coder and Computer Use Agent for Qwen3.5/Qwen3.6. My work spans data construction, RL infrastructure, model training, evaluation, and failure analysis.</li>
-  <li><span class="tb-meta"><span>Dec 2023 - Present</span><span>Peking University DCAI Group</span><span>Beijing</span></span><strong>Research Assistant, supervised by Prof. Wentao Zhang</strong><br>Contribute to DataFlow, focusing on code-data workflows, coding pipeline construction, data processing, and quality filtering for training-ready code data.</li>
+  <li><span class="tb-meta"><span>Dec 2023 - Present</span><span>Peking University DCAI Group</span><span>Beijing</span></span><strong>Research Assistant, supervised by Prof. Wentao Zhang</strong><br>Contribute to DataFlow, focusing on code-data workflows, code data pipeline construction, data processing, and quality filtering for training-ready code data.</li>
   <li><span class="tb-meta"><span>Mar 2024 - May 2025</span><span>Shanghai AI Laboratory, OpenDataLab</span><span>Shanghai</span></span><strong>Research Intern</strong><br>Worked on data preparation and selection for LLM pretraining, including data management strategies for InternLM3-8B and Ray-based labeling pipelines for data selection. Led three first/co-first author research projects during the internship.</li>
   <li><span class="tb-meta"><span>Jul 2021 - Jul 2023</span><span>Peking University DAIR Group</span><span>Beijing</span></span><strong>Research Assistant, supervised by Prof. Bin Cui</strong><br>Studied transfer learning for Bayesian optimization and hyperparameter tuning. This work led to a KDD 2022 paper on transfer-learning-based search space design, and a first-author survey on transfer learning for Bayesian optimization.</li>
 </ul>
