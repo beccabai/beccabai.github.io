@@ -791,11 +791,12 @@ a:hover {
 
 .tb-paper-list--selected article {
   display: grid;
-  grid-template-columns: minmax(6.8rem, 9rem) minmax(0, 1fr);
+  grid-template-columns: 8.6rem minmax(0, 1fr);
   grid-template-areas:
-    "meta title"
-    "meta authors";
-  column-gap: 0.85rem;
+    "thumb meta"
+    "thumb title"
+    "thumb authors";
+  column-gap: 0.9rem;
   align-items: center;
   min-height: 0;
   padding: 0.58rem 0.72rem;
@@ -812,10 +813,23 @@ a:hover {
   transform: translateY(-1px);
 }
 
+.tb-paper-list--selected .tb-paper-thumb {
+  grid-area: thumb;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  padding: 0.22rem;
+  border: 1px solid rgba(216, 167, 173, 0.20);
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 10px 24px rgba(143, 102, 112, 0.07);
+  object-fit: contain;
+}
+
 .tb-paper-list--selected .tb-paper-venue {
   grid-area: meta;
   align-content: center;
   gap: 0.22rem;
+  margin-bottom: 0.2rem;
 }
 
 .tb-paper-list--selected .tb-paper-venue > span,
@@ -1280,8 +1294,19 @@ a:hover {
   }
 
   .tb-paper-list--selected article {
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "thumb"
+      "meta"
+      "title"
+      "authors";
     padding: 0.74rem 0.78rem;
+  }
+
+  .tb-paper-list--selected .tb-paper-thumb {
+    max-height: 7.6rem;
+    margin-bottom: 0.58rem;
   }
 
   .tb-paper-list--selected .tb-paper-venue {

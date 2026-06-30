@@ -60,31 +60,37 @@ redirect_from:
 
 <div class="tb-paper-list tb-paper-list--selected">
   <article>
+    <img class="tb-paper-thumb" src="/images/work/qwen.png" alt="Qwen3-Coder-Next benchmark overview">
     <p class="tb-paper-venue"><span class="tb-paper-tag">Coding Agent</span><span>Technical Report</span></p>
     <h3><a href="https://arxiv.org/abs/2603.00729">Qwen3-Coder-Next Technical Report</a></h3>
     <p>Qwen Team</p>
   </article>
   <article>
+    <img class="tb-paper-thumb" src="/images/work/geometry.png" alt="Multimodal geometry dataset synthesis pipeline">
     <p class="tb-paper-venue"><span class="tb-paper-tag">Multimodal Geometry</span><span>Mentor</span><span>ICML 2026</span></p>
     <h3><a href="https://arxiv.org/pdf/2602.18745">Synthesizing Multimodal Geometry Datasets from Scratch and Enabling Visual Alignment via Plotting Code</a></h3>
     <p>Haobo Lin, <strong>Tianyi Bai</strong>, Chen Chen, Jiajun Zhang, Bohan Zeng, Wentao Zhang, Binhang Yuan</p>
   </article>
   <article>
+    <img class="tb-paper-thumb" src="/images/work/hallucination.png" alt="MicroEdit controlled visual edit pipeline">
     <p class="tb-paper-venue"><span class="tb-paper-tag">Multimodal Reasoning</span><span>NeurIPS 2025</span></p>
     <h3><a href="https://arxiv.org/abs/2506.07227">Hallucination at a Glance: Controlled Visual Edits and Fine-Grained Multimodal Learning</a></h3>
     <p><strong>Tianyi Bai</strong>, Yuxuan Fan, Jiantao Qiu, Fupeng Sun, Jiayi Song, Junlin Han, Zichen Liu, Conghui He, Wentao Zhang, Binhang Yuan</p>
   </article>
   <article>
+    <img class="tb-paper-thumb" src="/images/work/visual.png" alt="Visual reasoning with token scaling and verification">
     <p class="tb-paper-venue"><span class="tb-paper-tag">Visual Reasoning</span><span>NeurIPS 2025</span></p>
     <h3><a href="https://arxiv.org/abs/2506.07235">Multi-Step Visual Reasoning with Visual Tokens Scaling and Verification</a></h3>
     <p><strong>Tianyi Bai</strong>, Zengjie Hu, Fupeng Sun, Jiantao Qiu, Yizhen Jiang, Guangxin He, Bohan Zeng, Conghui He, Binhang Yuan, Wentao Zhang</p>
   </article>
   <article>
+    <img class="tb-paper-thumb" src="/images/work/pretraining.png" alt="Multi-actor pretraining data selection workflow">
     <p class="tb-paper-venue"><span class="tb-paper-tag">Data Selection</span><span>ACL 2025 Main</span></p>
     <h3><a href="https://arxiv.org/pdf/2410.08102">Efficient Pretraining Data Selection for Language Models via Multi-Actor Collaboration</a></h3>
     <p><strong>Tianyi Bai</strong>, Ling Yang, Zhen Hao Wong, Fupeng Sun, Jiahui Peng, Xinlin Zhuang, Chi Zhang, Lijun Wu, Jiantao Qiu, Wentao Zhang, Binhang Yuan, Conghui He</p>
   </article>
   <article>
+    <img class="tb-paper-thumb" src="/images/work/survey.png" alt="Data-centric multimodal large language model survey taxonomy">
     <p class="tb-paper-venue"><span class="tb-paper-tag">Data-Centric AI</span><span>ACM Computing Surveys, major revision</span></p>
     <h3><a href="https://arxiv.org/abs/2405.16640">A Survey of Multimodal Large Language Model from A Data-centric Perspective</a></h3>
     <p><strong>Tianyi Bai</strong>, Hao Liang, Binwang Wan, Ling Yang, Bozhou Li, Yifan Wang, Bin Cui, Conghui He, Binhang Yuan, Wentao Zhang</p>
