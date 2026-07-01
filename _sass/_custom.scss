@@ -1154,6 +1154,31 @@ a:hover {
   white-space: nowrap;
 }
 
+.tb-visitor-counter__badge {
+  display: inline-flex;
+  min-height: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.18rem 0.58rem;
+  border: 1px solid rgba(185, 137, 146, 0.2);
+  border-radius: 999px;
+  background: rgba(255, 248, 245, 0.78);
+  color: #8f6670;
+  font-size: 0.68rem;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.tb-visitor-counter__badge.is-loaded {
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.tb-visitor-counter__badge.is-unavailable {
+  color: rgba(143, 102, 112, 0.7);
+}
+
 .tb-visitor-counter img {
   display: block;
   width: auto;
@@ -1597,9 +1622,16 @@ a:hover {
 
   .tb-visitor-counter {
     gap: 0.42rem;
+    margin-bottom: 1.55rem;
     max-width: min(21rem, calc(100% - 1.2rem));
     padding: 0.4rem 0.52rem;
     font-size: 0.66rem;
+  }
+
+  .tb-visitor-counter__badge {
+    min-height: 1.42rem;
+    padding: 0.18rem 0.52rem;
+    font-size: 0.64rem;
   }
 
   .tb-visitor-counter img {

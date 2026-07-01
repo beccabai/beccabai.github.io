@@ -1,19 +1,31 @@
-<div class="tb-visitor-counter" aria-label="Site views">
+<div class="tb-visitor-counter" aria-label="Site page views">
   <span class="tb-visitor-counter__dot"></span>
   <span class="tb-visitor-counter__label">Views</span>
-  <img
-    class="tb-visitor-counter__today"
-    alt="Today's view count"
-    loading="lazy">
-  <img
-    src="https://visitor-badge.laobi.icu/badge?page_id=beccabai.github.io&left_text=total&left_color=%23b98992&right_color=%238f6670&format=true&radius=10&height=24"
-    alt="Total view count"
-    loading="lazy">
+  <span class="tb-visitor-counter__badge tb-visitor-counter__today">today preview</span>
+  <span class="tb-visitor-counter__badge tb-visitor-counter__total">total preview</span>
 </div>
 <script>
   (function () {
     var today = document.querySelector(".tb-visitor-counter__today");
-    if (!today) return;
+    var total = document.querySelector(".tb-visitor-counter__total");
+    if (!today || !total || window.location.hostname !== "beccabai.github.io") return;
+
+    function setBadge(target, src, fallbackText) {
+      var img = new Image();
+      img.alt = "";
+      img.loading = "lazy";
+      img.decoding = "async";
+      img.onload = function () {
+        target.replaceChildren(img);
+        target.classList.add("is-loaded");
+      };
+      img.onerror = function () {
+        target.textContent = fallbackText;
+        target.classList.add("is-unavailable");
+      };
+      img.src = src;
+    }
+
     var parts = new Intl.DateTimeFormat("en", {
       timeZone: "Asia/Hong_Kong",
       year: "numeric",
@@ -24,6 +36,10 @@
       return acc;
     }, {});
     var dateKey = parts.year + "-" + parts.month + "-" + parts.day;
-    today.src = "https://visitor-badge.laobi.icu/badge?page_id=beccabai.github.io.today." + dateKey + "&left_text=today&left_color=%23b98992&right_color=%238f6670&format=true&radius=10&height=24";
+    var badgeBase = "https://visitor-badge.laobi.icu/badge";
+    var badgeStyle = "&left_color=%23b98992&right_color=%238f6670&format=true&radius=10&height=24";
+
+    setBadge(today, badgeBase + "?page_id=beccabai.github.io.today." + dateKey + "&left_text=today" + badgeStyle, "today unavailable");
+    setBadge(total, badgeBase + "?page_id=beccabai.github.io&left_text=total" + badgeStyle, "total unavailable");
   })();
 </script>
