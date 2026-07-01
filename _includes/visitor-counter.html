@@ -13,16 +13,19 @@
     function setBadge(target, src, fallbackText) {
       var img = new Image();
       img.alt = "";
-      img.loading = "lazy";
+      img.loading = "eager";
       img.decoding = "async";
+      target.classList.add("is-loading");
       img.onload = function () {
-        target.replaceChildren(img);
+        target.classList.remove("is-loading");
         target.classList.add("is-loaded");
       };
       img.onerror = function () {
+        target.classList.remove("is-loading");
         target.textContent = fallbackText;
         target.classList.add("is-unavailable");
       };
+      target.replaceChildren(img);
       img.src = src;
     }
 
