@@ -1,8 +1,9 @@
 <div class="tb-visitor-counter" aria-label="Site page views">
   <span class="tb-visitor-counter__dot"></span>
   <span class="tb-visitor-counter__label">Views</span>
-  <span class="tb-visitor-counter__badge tb-visitor-counter__today">today preview</span>
-  <span class="tb-visitor-counter__badge tb-visitor-counter__total">total preview</span>
+  <span class="tb-visitor-counter__badge tb-visitor-counter__today"><span>Today</span><strong>--</strong></span>
+  <span class="tb-visitor-counter__badge tb-visitor-counter__total"><span>Total</span><strong>--</strong></span>
+  <a class="tb-visitor-counter__link" href="https://tiana.goatcounter.com/" rel="nofollow">Analytics</a>
 </div>
 <script>
   (function () {
@@ -10,39 +11,49 @@
     var total = document.querySelector(".tb-visitor-counter__total");
     if (!today || !total || window.location.hostname !== "beccabai.github.io") return;
 
-    function setBadge(target, src, fallbackText) {
-      var img = new Image();
-      img.alt = "";
-      img.loading = "eager";
-      img.decoding = "async";
+    function setCount(target, url) {
       target.classList.add("is-loading");
-      img.onload = function () {
-        target.classList.remove("is-loading");
-        target.classList.add("is-loaded");
-      };
-      img.onerror = function () {
-        target.classList.remove("is-loading");
-        target.textContent = fallbackText;
-        target.classList.add("is-unavailable");
-      };
-      target.replaceChildren(img);
-      img.src = src;
+      fetch(url, { mode: "cors", cache: "no-store" })
+        .then(function (response) {
+          if (!response.ok) throw new Error("Counter unavailable");
+          return response.json();
+        })
+        .then(function (data) {
+          var count = Number(data.count || data.count_unique || 0);
+          target.querySelector("strong").textContent = count.toLocaleString();
+          target.classList.add("is-loaded");
+        })
+        .catch(function () {
+          target.querySelector("strong").textContent = "--";
+          target.classList.add("is-unavailable");
+        })
+        .finally(function () {
+          target.classList.remove("is-loading");
+        });
     }
 
-    var parts = new Intl.DateTimeFormat("en", {
-      timeZone: "Asia/Hong_Kong",
-      year: "numeric",
-      month: "2-digit",
-      day: "2-digit"
-    }).formatToParts(new Date()).reduce(function (acc, part) {
-      acc[part.type] = part.value;
-      return acc;
-    }, {});
-    var dateKey = parts.year + "-" + parts.month + "-" + parts.day;
-    var badgeBase = "https://visitor-badge.laobi.icu/badge";
-    var badgeStyle = "&left_color=%23b98992&right_color=%238f6670&format=true&radius=10&height=24";
+    function dateInHongKong() {
+      var parts = new Intl.DateTimeFormat("en", {
+        timeZone: "Asia/Hong_Kong",
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit"
+      }).formatToParts(new Date()).reduce(function (acc, part) {
+        acc[part.type] = part.value;
+        return acc;
+      }, {});
+      return parts.year + "-" + parts.month + "-" + parts.day;
+    }
 
-    setBadge(today, badgeBase + "?page_id=beccabai.github.io.today." + dateKey + "&left_text=today" + badgeStyle, "today unavailable");
-    setBadge(total, badgeBase + "?page_id=beccabai.github.io&left_text=total" + badgeStyle, "total unavailable");
+    setCount(today, "https://tiana.goatcounter.com/counter/TOTAL.json?start=" + dateInHongKong());
+    setCount(total, "https://tiana.goatcounter.com/counter/TOTAL.json");
   })();
 </script>
+<noscript>
+  <style>
+    .tb-visitor-counter__today,
+    .tb-visitor-counter__total {
+      display: none;
+    }
+  </style>
+</noscript>
