@@ -1,55 +1,6 @@
-<!-- goatcounter-display: date-range-v2 -->
+<!-- goatcounter-display: dashboard-link -->
 <div class="tb-visitor-counter" aria-label="Site page views">
   <span class="tb-visitor-counter__dot"></span>
   <span class="tb-visitor-counter__label">Views</span>
-  <span class="tb-visitor-counter__badge tb-visitor-counter__today"><span>Today</span><strong>--</strong></span>
-  <span class="tb-visitor-counter__badge tb-visitor-counter__total"><span>Total</span><strong>--</strong></span>
   <a class="tb-visitor-counter__link" href="https://tiana.goatcounter.com/" rel="nofollow">Analytics</a>
 </div>
-<script>
-  (function () {
-    var today = document.querySelector(".tb-visitor-counter__today");
-    var total = document.querySelector(".tb-visitor-counter__total");
-    if (!today || !total) return;
-
-    function setCount(target, url) {
-      target.classList.add("is-loading");
-      fetch(url, { mode: "cors", cache: "no-store" })
-        .then(function (response) {
-          if (!response.ok) throw new Error("Counter unavailable");
-          return response.json();
-        })
-        .then(function (data) {
-          var count = Number(data.count || data.count_unique || 0);
-          target.querySelector("strong").textContent = count.toLocaleString();
-          target.classList.add("is-loaded");
-        })
-        .catch(function () {
-          target.querySelector("strong").textContent = "--";
-          target.classList.add("is-unavailable");
-        })
-        .finally(function () {
-          target.classList.remove("is-loading");
-        });
-    }
-
-    function dateInUTC(date) {
-      return date.toISOString().slice(0, 10);
-    }
-
-    var now = new Date();
-    var tomorrow = new Date(now.getTime() + 24 * 60 * 60 * 1000);
-    var tomorrowKey = dateInUTC(tomorrow);
-
-    setCount(today, "https://tiana.goatcounter.com/counter/TOTAL.json?start=" + dateInUTC(now) + "&end=" + tomorrowKey);
-    setCount(total, "https://tiana.goatcounter.com/counter/TOTAL.json?end=" + tomorrowKey);
-  })();
-</script>
-<noscript>
-  <style>
-    .tb-visitor-counter__today,
-    .tb-visitor-counter__total {
-      display: none;
-    }
-  </style>
-</noscript>
