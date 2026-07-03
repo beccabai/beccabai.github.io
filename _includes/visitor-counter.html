@@ -9,7 +9,7 @@
   (function () {
     var today = document.querySelector(".tb-visitor-counter__today");
     var total = document.querySelector(".tb-visitor-counter__total");
-    if (!today || !total || window.location.hostname !== "beccabai.github.io") return;
+    if (!today || !total) return;
 
     function setCount(target, url) {
       target.classList.add("is-loading");
