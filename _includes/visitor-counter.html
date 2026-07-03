@@ -32,21 +32,29 @@
         });
     }
 
-    function dateInHongKong() {
-      var parts = new Intl.DateTimeFormat("en", {
+    function datePartsInHongKong(date) {
+      return new Intl.DateTimeFormat("en", {
         timeZone: "Asia/Hong_Kong",
         year: "numeric",
         month: "2-digit",
         day: "2-digit"
-      }).formatToParts(new Date()).reduce(function (acc, part) {
+      }).formatToParts(date).reduce(function (acc, part) {
         acc[part.type] = part.value;
         return acc;
       }, {});
+    }
+
+    function dateInHongKong(date) {
+      var parts = datePartsInHongKong(date);
       return parts.year + "-" + parts.month + "-" + parts.day;
     }
 
-    setCount(today, "https://tiana.goatcounter.com/counter/TOTAL.json?start=" + dateInHongKong());
-    setCount(total, "https://tiana.goatcounter.com/counter/TOTAL.json");
+    var now = new Date();
+    var tomorrow = new Date(now.getTime() + 24 * 60 * 60 * 1000);
+    var tomorrowKey = dateInHongKong(tomorrow);
+
+    setCount(today, "https://tiana.goatcounter.com/counter/TOTAL.json?start=" + dateInHongKong(now) + "&end=" + tomorrowKey);
+    setCount(total, "https://tiana.goatcounter.com/counter/TOTAL.json?end=" + tomorrowKey);
   })();
 </script>
 <noscript>
