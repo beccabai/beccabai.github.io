@@ -12,7 +12,7 @@ redirect_from:
   <div class="tb-landing__copy">
     <p class="tb-kicker">Tencent Hunyuan · Researcher / HKUST Ph.D.</p>
     <h1>Tianyi Bai</h1>
-    <p class="tb-lead">I am a Researcher at <a href="https://hunyuan.tencent.com/">Tencent Hunyuan</a>, working on computer use agents, web development (WebDev), and visual agents. I received my Ph.D. in Computer Science and Engineering from HKUST in August 2026, advised by <a href="https://binhangyuan.github.io/site/">Prof. Binhang Yuan</a>. My research interests also include multimodal reasoning and data-centric AI, and I collaborate with <a href="https://zwt233.github.io/">Prof. Wentao Zhang</a> at PKU DCAI. I welcome conversations and collaborations—feel free to <a href="mailto:{{ site.author.email }}">get in touch</a>.</p>
+    <p class="tb-lead">I am a Researcher at <a href="https://hunyuan.tencent.com/">Tencent Hunyuan</a>, working on computer use agents, web development (WebDev), and visual agents. I received my Ph.D. in Computer Science and Engineering from HKUST in August 2026, advised by <a href="https://binhangyuan.github.io/site/">Prof. Binhang Yuan</a>. My research interests also include multimodal reasoning and data-centric AI, and I collaborate with <a href="https://zwt233.github.io/">Prof. Wentao Zhang</a> at PKU DCAI. Feel free to <a href="mailto:{{ site.author.email }}">email me</a> about research or collaboration.</p>
     <div class="tb-actions">
       <a href="/cv/">CV</a>
       <a href="https://scholar.google.com/citations?user=s3cJW70AAAAJ&hl=zh-CN&oi=ao">Google Scholar</a>
@@ -39,6 +39,18 @@ redirect_from:
 ## Selected Publications
 
 <div class="tb-paper-list tb-paper-list--selected">
+  <article>
+    <img class="tb-paper-thumb" src="/images/work/dataflow.jpg" alt="DataFlow framework for generating and cleaning LLM training data">
+    <p class="tb-paper-venue"><span class="tb-paper-tag">Data-Centric AI</span><span>SIGMOD 2027</span></p>
+    <h3><a href="https://arxiv.org/abs/2512.16676">DataFlow: An LLM-Driven Framework for Unified Data Preparation and Workflow Automation in the Era of Data-Centric AI</a></h3>
+    <p>Hao Liang, Xiaochen Ma, Zhou Liu, …, <strong>Tianyi Bai</strong>, …, Bin Cui, Weinan E, Wentao Zhang</p>
+  </article>
+  <article>
+    <img class="tb-paper-thumb" src="/images/work/qwen-cua.png" alt="Qwen-CUA results across eight computer-use benchmarks">
+    <p class="tb-paper-venue"><span class="tb-paper-tag">Computer Use Agent</span><span>Technical Report · 2026</span></p>
+    <h3><a href="https://arxiv.org/abs/2608.02352">Qwen-CUA: Native Computer Use for (almost) Everything</a></h3>
+    <p>Dunjie Lu, Shuai Bai, <strong>Tianyi Bai <span class="tb-author-note">Core contributor</span></strong>, et al.</p>
+  </article>
   <article>
     <img class="tb-paper-thumb" src="/images/work/geometry.png" alt="Multimodal geometry dataset synthesis pipeline">
     <p class="tb-paper-venue"><span class="tb-paper-tag">Multimodal Geometry</span><span>ICML 2026</span></p>

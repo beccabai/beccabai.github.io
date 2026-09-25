@@ -45,6 +45,16 @@ redirect_from:
 
 <div class="tb-paper-list">
   <article>
+    <p class="tb-paper-venue"><span class="tb-paper-tag">Data-Centric AI</span><span>SIGMOD 2027</span></p>
+    <h3><a href="https://arxiv.org/abs/2512.16676">DataFlow: An LLM-Driven Framework for Unified Data Preparation and Workflow Automation in the Era of Data-Centric AI</a></h3>
+    <p>Responsible for the code data pipeline, including code data processing, quality filtering, pipeline orchestration, and preparation of training-ready code data.</p>
+  </article>
+  <article>
+    <p class="tb-paper-venue"><span class="tb-paper-tag">Computer Use Agent</span><span>Core contributor</span><span>Technical Report · 2026</span></p>
+    <h3><a href="https://arxiv.org/abs/2608.02352">Qwen-CUA: Native Computer Use for (almost) Everything</a></h3>
+    <p>A native computer-use agent that operates desktop and browser applications through screenshots, keyboard input, and mouse actions.</p>
+  </article>
+  <article>
     <p class="tb-paper-venue"><span class="tb-paper-tag">Multimodal Geometry</span><span>Mentor</span><span>ICML 2026</span></p>
     <h3><a href="https://arxiv.org/pdf/2602.18745">Synthesizing Multimodal Geometry Datasets from Scratch and Enabling Visual Alignment via Plotting Code</a></h3>
     <p>Mentored junior collaborator on synthetic multimodal geometry dataset generation and visual alignment with plotting code.</p>
