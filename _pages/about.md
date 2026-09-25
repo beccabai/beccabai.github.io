@@ -43,13 +43,13 @@ redirect_from:
     <img class="tb-paper-thumb" src="/images/work/dataflow.jpg" alt="DataFlow framework for generating and cleaning LLM training data">
     <p class="tb-paper-venue"><span class="tb-paper-tag">Data-Centric AI</span><span>SIGMOD 2027</span></p>
     <h3><a href="https://arxiv.org/abs/2512.16676">DataFlow: An LLM-Driven Framework for Unified Data Preparation and Workflow Automation in the Era of Data-Centric AI</a></h3>
-    <p>Core contributor</p>
+    <p>DataFlow Team · Core contributor</p>
   </article>
   <article>
     <img class="tb-paper-thumb" src="/images/work/qwen-cua.png" alt="Qwen-CUA results across eight computer-use benchmarks">
     <p class="tb-paper-venue"><span class="tb-paper-tag">Computer Use Agent</span><span>Technical Report · 2026</span></p>
     <h3><a href="https://arxiv.org/abs/2608.02352">Qwen-CUA: Native Computer Use for (almost) Everything</a></h3>
-    <p>Core contributor</p>
+    <p>Qwen Team · Core contributor</p>
   </article>
   <article>
     <img class="tb-paper-thumb" src="/images/work/geometry.png" alt="Multimodal geometry dataset synthesis pipeline">
