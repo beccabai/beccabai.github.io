@@ -49,7 +49,7 @@ redirect_from:
     <img class="tb-paper-thumb" src="/images/work/qwen-cua.png" alt="Qwen-CUA results across eight computer-use benchmarks">
     <p class="tb-paper-venue"><span class="tb-paper-tag">Computer Use Agent</span><span>Technical Report · 2026</span></p>
     <h3><a href="https://arxiv.org/abs/2608.02352">Qwen-CUA: Native Computer Use for (almost) Everything</a></h3>
-    <p>Dunjie Lu, Shuai Bai, <strong>Tianyi Bai <span class="tb-author-note">Core contributor</span></strong>, et al.</p>
+    <p>Core contributor</p>
   </article>
   <article>
     <img class="tb-paper-thumb" src="/images/work/geometry.png" alt="Multimodal geometry dataset synthesis pipeline">
