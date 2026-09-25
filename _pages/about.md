@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Tianyi Bai"
-excerpt: "Tianyi Bai"
+excerpt: "Tianyi Bai works on computer use agents, web development, and visual agents at Tencent Hunyuan. She received her Ph.D. from HKUST in August 2026."
 author_profile: false
 redirect_from:
   - /about/
@@ -10,13 +10,13 @@ redirect_from:
 
 <section class="tb-landing">
   <div class="tb-landing__copy">
-    <p class="tb-kicker">HKUST CSE Ph.D. / Agentic AI / Data-Centric AI</p>
+    <p class="tb-kicker">Tencent Hunyuan / HKUST Ph.D.</p>
     <h1>Tianyi Bai</h1>
-    <p class="tb-lead">I am a Ph.D. student in Computer Science at HKUST, advised by <a href="https://binhangyuan.github.io/site/">Prof. Binhang Yuan</a>. My research focuses on building capable computer-use and coding agents, with an emphasis on data-centric methods for improving their training, evaluation, and multimodal reasoning abilities. I am fortunate to intern at Qwen, where I work with <a href="https://huybery.github.io/">Binyuan Hui</a> and <a href="https://justinlin610.github.io/">Junyang Lin</a>. I also collaborate with <a href="https://zwt233.github.io/">Prof. Wentao Zhang</a> at PKU DCAI.</p>
+    <p class="tb-lead">I am at <a href="https://hunyuan.tencent.com/">Tencent Hunyuan</a>, working on computer use agents, web development (WebDev), and visual agents. I received my Ph.D. in Computer Science and Engineering from HKUST in August 2026, advised by <a href="https://binhangyuan.github.io/site/">Prof. Binhang Yuan</a>. My research interests also include multimodal reasoning and data-centric AI, and I collaborate with <a href="https://zwt233.github.io/">Prof. Wentao Zhang</a> at PKU DCAI. I welcome conversations and collaborations—feel free to <a href="mailto:{{ site.author.email }}">get in touch</a>.</p>
     <div class="tb-actions">
       <a href="/cv/">CV</a>
       <a href="https://scholar.google.com/citations?user=s3cJW70AAAAJ&hl=zh-CN&oi=ao">Google Scholar</a>
-      <a href="mailto:tbaiag@cse.ust.hk">Email</a>
+      <a href="mailto:{{ site.author.email }}">Email</a>
       <a href="https://github.com/beccabai">GitHub</a>
     </div>
   </div>
@@ -28,8 +28,8 @@ redirect_from:
       <div class="tb-interest-card">
         <span>Research Interests</span>
         <strong>Computer Use Agent</strong>
-        <strong>Coding Agent</strong>
-        <strong>Multimodal Reasoning</strong>
+        <strong>Web Development</strong>
+        <strong>Visual Agent</strong>
         <strong>Data-Centric AI</strong>
       </div>
     </div>
@@ -40,16 +40,10 @@ redirect_from:
 
 <div class="tb-project-grid">
   <article class="tb-project-card">
-    <img class="tb-project-thumb" src="/images/work/cua.jpg" alt="Computer Use Agent benchmark results">
-    <span>Computer Use Agent</span>
-    <h3><a href="https://qwen.ai/blog?id=qwen3.6">Qwen3.5 / Qwen3.6</a></h3>
-    <p>Leading Computer Use Agent capability work across RL infrastructure, annotation quality, data pipelines, training, evaluation, and bad case analysis.</p>
-  </article>
-  <article class="tb-project-card">
-    <img class="tb-project-thumb" src="/images/work/coder.jpg" alt="Qwen3-Coder-Next coding benchmark Pareto frontier">
-    <span>Coding Agent</span>
-    <h3><a href="https://github.com/QwenLM/Qwen3-Coder">Qwen3-Coder</a></h3>
-    <p>Contributed to the Browser Use Agent module, including browser interaction data construction, capability improvement, training pipeline support, and evaluation.</p>
+    <img class="tb-project-thumb" src="/images/work/hy4-preview.png" alt="Tencent Hunyuan logo from the Hy4 preview project">
+    <span>Tencent Hunyuan</span>
+    <h3><a href="https://github.com/Tencent-Hunyuan/Hy4-preview">Hy4 preview</a></h3>
+    <p>Contributed to Hy4 preview, Tencent Hunyuan's open-source model for coding, office work, and scientific research.</p>
   </article>
   <article class="tb-project-card">
     <img class="tb-project-thumb" src="/images/work/dataflow.jpg" alt="DataFlow generate and clean high-quality LLM data workflow">
@@ -57,17 +51,17 @@ redirect_from:
     <h3><a href="https://github.com/OpenDCAI/DataFlow">DataFlow</a></h3>
     <p>Responsible for the code data pipeline, including code data processing, quality filtering, pipeline orchestration, and preparation of training-ready code data.</p>
   </article>
+  <article class="tb-project-card">
+    <img class="tb-project-thumb" src="/images/work/visual.png" alt="Visual reasoning with token scaling and verification">
+    <span>Visual Reasoning</span>
+    <h3><a href="https://arxiv.org/abs/2506.07235">Visual Token Scaling &amp; Verification</a></h3>
+    <p>First-author work on multi-step visual reasoning, using visual token scaling and verification to tackle complex visual tasks. NeurIPS 2025.</p>
+  </article>
 </div>
 
 ## Selected Work
 
 <div class="tb-paper-list tb-paper-list--selected">
-  <article>
-    <img class="tb-paper-thumb" src="/images/work/qwen.png" alt="Qwen3-Coder-Next benchmark overview">
-    <p class="tb-paper-venue"><span class="tb-paper-tag">Coding Agent</span><span>Technical Report</span></p>
-    <h3><a href="https://arxiv.org/abs/2603.00729">Qwen3-Coder-Next Technical Report</a></h3>
-    <p>Qwen Team</p>
-  </article>
   <article>
     <img class="tb-paper-thumb" src="/images/work/geometry.png" alt="Multimodal geometry dataset synthesis pipeline">
     <p class="tb-paper-venue"><span class="tb-paper-tag">Multimodal Geometry</span><span>ICML 2026</span></p>
@@ -98,12 +92,19 @@ redirect_from:
     <h3><a href="https://arxiv.org/abs/2405.16640">A Survey of Multimodal Large Language Model from A Data-centric Perspective</a></h3>
     <p><strong>Tianyi Bai</strong>, Hao Liang, Binwang Wan, Ling Yang, Bozhou Li, Yifan Wang, Bin Cui, Conghui He, Binhang Yuan, Wentao Zhang</p>
   </article>
+  <article>
+    <img class="tb-paper-thumb" src="/images/work/qwen.png" alt="Qwen3-Coder-Next benchmark overview">
+    <p class="tb-paper-venue"><span class="tb-paper-tag">Coding Agent</span><span>Technical Report</span></p>
+    <h3><a href="https://arxiv.org/abs/2603.00729">Qwen3-Coder-Next Technical Report</a></h3>
+    <p>Qwen Team</p>
+  </article>
 </div>
 
 ## Experience
 
 <ul class="tb-timeline">
-  <li><span class="tb-meta">May 2025 - Present / Alibaba Qwen Team</span><strong>Research Intern</strong><br>I work on agent capabilities for Qwen models, including Browser Use Agent for Qwen3-Coder and Computer Use Agent for Qwen3.5/Qwen3.6. My work spans data construction, RL infrastructure, training, evaluation, and failure analysis.</li>
+  <li><span class="tb-meta">Current / Tencent Hunyuan</span><strong>Computer Use Agents, WebDev &amp; Visual Agents</strong><br>I work on computer use agents, web development, and visual agents. My contributions include Hy4 preview.</li>
+  <li><span class="tb-meta">Previously / Alibaba Qwen Team</span><strong>Research Intern</strong><br>I worked on computer use and browser use agents, including data construction, training, and evaluation.</li>
   <li><span class="tb-meta">Dec 2023 - Dec 2025 / Peking University DCAI Group</span><strong>Research Assistant</strong><br>I contribute to DataFlow, with a focus on code-data workflows, code data pipeline construction, data processing, and quality filtering for training-ready code data.</li>
   <li><span class="tb-meta">Mar 2024 - May 2025 / Shanghai Artificial Intelligence Laboratory, OpenDataLab</span><strong>Research Intern</strong><br>I worked on data preparation and selection for LLM pretraining, including data management strategies for InternLM3-8B and Ray-based labeling pipelines for data selection.</li>
   <li><span class="tb-meta">Jul 2021 - Jul 2023 / Peking University DAIR Group</span><strong>Research Assistant</strong><br>I studied transfer learning for Bayesian optimization and hyperparameter tuning. This work led to a KDD 2022 paper on transfer-learning-based search space design.</li>

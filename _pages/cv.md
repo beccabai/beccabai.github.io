@@ -18,7 +18,7 @@ redirect_from:
       <span>Hong Kong</span>
     </div>
     <p>Ph.D. in Computer Science and Engineering</p>
-    <div class="tb-meta"><span>Sep 2023 - 2026 expected</span><span>Supervisor: Binhang Yuan</span></div>
+    <div class="tb-meta"><span>Sep 2023 - Aug 2026</span><span>Supervisor: Binhang Yuan</span></div>
   </article>
   <article>
     <div class="tb-edu-head">
@@ -35,22 +35,22 @@ redirect_from:
 
 <div class="tb-grid">
   <article class="tb-card">
-    <span class="tb-card-label">Computer Use</span>
-    <h3><a href="https://qwen.ai/blog?id=qwen3.6">Qwen3.5 / Qwen3.6</a></h3>
-    <p><strong>Leading Computer Use Agent capability.</strong></p>
-    <p>Owned RL infrastructure, data quality, CPT/SFT/RL training, evaluation, and internal benchmark loops for the CUA pipeline.</p>
-  </article>
-  <article class="tb-card">
-    <span class="tb-card-label">Browser Use</span>
-    <h3><a href="https://github.com/QwenLM/Qwen3-Coder">Qwen3-Coder</a></h3>
-    <p><strong>Contributor, 2025.</strong></p>
-    <p>Worked on the Browser Use Agent module, browser interaction data construction, capability improvement, training pipeline support, and evaluation.</p>
+    <span class="tb-card-label">Tencent Hunyuan</span>
+    <h3><a href="https://github.com/Tencent-Hunyuan/Hy4-preview">Hy4 preview</a></h3>
+    <p><strong>Contributor, 2026.</strong></p>
+    <p>Contributed to Tencent Hunyuan's open-source model for coding, office work, and scientific research.</p>
   </article>
   <article class="tb-card">
     <span class="tb-card-label">Data Pipeline</span>
     <h3><a href="https://github.com/OpenDCAI/DataFlow">DataFlow</a></h3>
     <p><strong>Core contributor, 2025.</strong></p>
     <p>Responsible for the code data pipeline, including code data processing, quality filtering, pipeline orchestration, and preparation of training-ready code data.</p>
+  </article>
+  <article class="tb-card">
+    <span class="tb-card-label">Visual Reasoning</span>
+    <h3><a href="https://arxiv.org/abs/2506.07235">Visual Token Scaling &amp; Verification</a></h3>
+    <p><strong>First author, NeurIPS 2025.</strong></p>
+    <p>Multi-step visual reasoning with visual token scaling and verification for complex visual tasks.</p>
   </article>
 </div>
 
@@ -87,12 +87,18 @@ redirect_from:
     <h3><a href="https://arxiv.org/abs/2405.16640">A Survey of Multimodal Large Language Model from A Data-centric Perspective</a></h3>
     <p>Surveys multimodal large language models from data preparation, evaluation, benchmarks, and future directions.</p>
   </article>
+  <article>
+    <p class="tb-paper-venue"><span class="tb-paper-tag">Coding Agent</span><span>Contributor</span><span>Technical Report</span></p>
+    <h3><a href="https://arxiv.org/abs/2603.00729">Qwen3-Coder-Next Technical Report</a></h3>
+    <p>Qwen Team</p>
+  </article>
 </div>
 
-## Internships
+## Experience
 
 <ul class="tb-timeline">
-  <li><span class="tb-meta"><span>May 2025 - Present</span><span>Alibaba Qwen Team</span><span>Beijing</span></span><strong>Research Intern</strong><br>Work on agent capabilities for Qwen models, including Browser Use Agent for Qwen3-Coder and Computer Use Agent for Qwen3.5/Qwen3.6. My work spans data construction, RL infrastructure, model training, evaluation, and failure analysis.</li>
+  <li><span class="tb-meta"><span>Current</span><span>Tencent Hunyuan</span></span><strong>Computer Use Agents, WebDev &amp; Visual Agents</strong><br>Work on computer use agents, web development, and visual agents. Contributions include Hy4 preview.</li>
+  <li><span class="tb-meta"><span>Previously</span><span>Alibaba Qwen Team</span><span>Beijing</span></span><strong>Research Intern</strong><br>Worked on computer use and browser use agents for Qwen3.5/Qwen3.6 and Qwen3-Coder, spanning data pipelines, RL infrastructure, training, and evaluation.</li>
   <li><span class="tb-meta"><span>Dec 2023 - Dec 2025</span><span>Peking University DCAI Group</span><span>Beijing</span></span><strong>Research Assistant, supervised by Prof. Wentao Zhang</strong><br>Contribute to DataFlow, focusing on code-data workflows, code data pipeline construction, data processing, and quality filtering for training-ready code data.</li>
   <li><span class="tb-meta"><span>Mar 2024 - May 2025</span><span>Shanghai AI Laboratory, OpenDataLab</span><span>Shanghai</span></span><strong>Research Intern</strong><br>Worked on data preparation and selection for LLM pretraining, including data management strategies for InternLM3-8B and Ray-based labeling pipelines for data selection. Led three first/co-first author research projects during the internship.</li>
   <li><span class="tb-meta"><span>Jul 2021 - Jul 2023</span><span>Peking University DAIR Group</span><span>Beijing</span></span><strong>Research Assistant, supervised by Prof. Bin Cui</strong><br>Studied transfer learning for Bayesian optimization and hyperparameter tuning. This work led to a KDD 2022 paper on transfer-learning-based search space design, and a first-author survey on transfer learning for Bayesian optimization.</li>
