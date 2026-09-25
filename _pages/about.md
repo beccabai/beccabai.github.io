@@ -43,7 +43,7 @@ redirect_from:
     <img class="tb-paper-thumb" src="/images/work/dataflow.jpg" alt="DataFlow framework for generating and cleaning LLM training data">
     <p class="tb-paper-venue"><span class="tb-paper-tag">Data-Centric AI</span><span>SIGMOD 2027</span></p>
     <h3><a href="https://arxiv.org/abs/2512.16676">DataFlow: An LLM-Driven Framework for Unified Data Preparation and Workflow Automation in the Era of Data-Centric AI</a></h3>
-    <p>Hao Liang, Xiaochen Ma, Zhou Liu, …, <strong>Tianyi Bai</strong>, …, Bin Cui, Weinan E, Wentao Zhang</p>
+    <p>Core contributor</p>
   </article>
   <article>
     <img class="tb-paper-thumb" src="/images/work/qwen-cua.png" alt="Qwen-CUA results across eight computer-use benchmarks">
