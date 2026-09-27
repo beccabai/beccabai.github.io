@@ -92,7 +92,7 @@ redirect_from:
 ## Experience
 
 <ul class="tb-timeline">
-  <li><span class="tb-meta">Current / Tencent Hunyuan</span><strong>Researcher</strong><br>Developing computer use agents, web development capabilities, and visual agents.</li>
+  <li><span class="tb-meta">Current / Tencent Hunyuan</span><strong>Researcher</strong><br>Developing computer use agents, web development capabilities, and visual agents for the Hunyuan model series, including Hy3 and Hy4-preview.</li>
   <li><span class="tb-meta">May 2025 - Apr 2026 / Alibaba Qwen Team</span><strong>Research Intern</strong><br>I worked on computer use for <a href="https://qwen.ai/blog?id=qwen3.6">Qwen3.5 / Qwen3.6</a> and browser use for <a href="https://github.com/QwenLM/Qwen3-Coder">Qwen3-Coder</a>, spanning data construction, training, and evaluation.</li>
   <li><span class="tb-meta">Dec 2023 - Dec 2025 / Peking University DCAI Group</span><strong>Research Assistant</strong><br>I contribute to DataFlow, with a focus on code-data workflows, code data pipeline construction, data processing, and quality filtering for training-ready code data.</li>
   <li><span class="tb-meta">Mar 2024 - May 2025 / Shanghai Artificial Intelligence Laboratory, OpenDataLab</span><strong>Research Intern</strong><br>I worked on data preparation and selection for LLM pretraining, including data management strategies for InternLM3-8B and Ray-based labeling pipelines for data selection.</li>
